@@ -1,6 +1,8 @@
 import os
 import pandas as pd
 import time
+from tqdm import tqdm
+
 
 def get_filepaths_dataframe(directory, Ignore=None,give_second_dupreomved_df=False, multiple_or_no_dot_handler=True, find_dicom=False):
     """
@@ -49,7 +51,7 @@ def get_filepaths_dataframe(directory, Ignore=None,give_second_dupreomved_df=Fal
 
     if find_dicom is True:
         data = {'File': [], 'Full_Directory': [], 'If_dicom':[]}
-        
+        i=0        
         for root, dirs, files in os.walk(directory):
             for file in files:
                 file_path = os.path.join(root, file)
@@ -60,6 +62,10 @@ def get_filepaths_dataframe(directory, Ignore=None,give_second_dupreomved_df=Fal
                 data['Full_Directory'].append(root)
                 data['File'].append(file)
                 data['If_dicom'].append(pydicom.misc.is_dicom(file_path))
+                i=i+1
+                if i%100 ==0:
+                    print(f"{len(data['Full_Directory'])} directories extracted")
+
 
         
         tmp_data=pd.DataFrame(data)     
@@ -96,6 +102,7 @@ def get_filepaths_dataframe(directory, Ignore=None,give_second_dupreomved_df=Fal
         data = {'File': [], 'Full_Directory': []         
                 ,'to_file':[], 'If_dicom':[]}
         
+        i=0
         for root, dirs, files in os.walk(directory):
             for file in files:
                 file_path = os.path.join(root, file)
@@ -106,6 +113,9 @@ def get_filepaths_dataframe(directory, Ignore=None,give_second_dupreomved_df=Fal
                 data['Full_Directory'].append(root)
                 data['File'].append(file)
                 data['If_dicom'].append(pydicom.misc.is_dicom(file_path))
+                i=i+1
+                if i%100 ==0:
+                    print(f"{len(data['Full_Directory'])} directories extracted")
 
         
         tmp_data=pd.DataFrame(data)     
