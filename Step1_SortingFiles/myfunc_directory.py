@@ -138,52 +138,52 @@ def get_filepaths_dataframe(directory, Ignore=None,give_second_dupreomved_df=Fal
 
 
 ### F O R    D E B U G"""""
-Hospital_name= "Guilan"
-directory=f"D:\Data\Big Pancreas (CT, EUS)\Raw Data Hospital\{Hospital_name}"
-
-Ignore=None
-give_second_dupreomved_df=True
-multiple_or_no_dot_handler=True
-find_dicom=True
-import os
-import pandas as pd
-import time
-import pydicom
-
-start_time=time.time()
-
-data = {'File': [], 'Full_Directory': [],'If_dicom':[]}
-
-for root, dirs, files in os.walk(directory):
-    for file in files:
-        file_path = os.path.join(root, file)
-        file_extension = os.path.splitext(file)[1]
-        
-        if Ignore and file_extension in Ignore:
-            continue  # Skip files with extensions specified in the Ignore list
-        
-        data['Full_Directory'].append(root)
-        data['File'].append(file)
-        data['If_dicom'].append(pydicom.misc.is_dicom(file_path))
-
-
-tmp_data=pd.DataFrame(data)     
-data_split=tmp_data['Full_Directory'].str.split('\\\\', expand=True)
-data_split.columns = [f'Sub_dir_{i+1}' for i in range(data_split.shape[1])]
-data=pd.concat([tmp_data, data_split], axis=1)
-
-if multiple_or_no_dot_handler == True:
-    data['File_Format'] = data['File'].apply(lambda x: x.rsplit('.', 1)[-1] if '.' in x else 'WARNING: NODATAFORMAT')
-else:
-    data['File_Format'] = data['File'].str.split('.').str[-1]
-
-if give_second_dupreomved_df==True:
-    count_perDirectandType = data.groupby(['Full_Directory', 'File_Format'])['File_Format'].count().reset_index(name='Count')
-
-end_time = time.time()  # Record the end time
-elapsed_time = end_time - start_time
-print(f"Execution time: {elapsed_time} seconds")
-
-
+#Hospital_name= "Guilan"
+#directory=f"D:\Data\Big Pancreas (CT, EUS)\Raw Data Hospital\{Hospital_name}"
+#
+#Ignore=None
+#give_second_dupreomved_df=True
+#multiple_or_no_dot_handler=True
+#find_dicom=True
+#import os
+#import pandas as pd
+#import time
+#import pydicom
+#
+#start_time=time.time()
+#
+#data = {'File': [], 'Full_Directory': [],'If_dicom':[]}
+#
+#for root, dirs, files in os.walk(directory):
+#    for file in files:
+#        file_path = os.path.join(root, file)
+#        file_extension = os.path.splitext(file)[1]
+#        
+#        if Ignore and file_extension in Ignore:
+#            continue  # Skip files with extensions specified in the Ignore list
+#        
+#        data['Full_Directory'].append(root)
+#        data['File'].append(file)
+#        data['If_dicom'].append(pydicom.misc.is_dicom(file_path))
+#
+#
+#tmp_data=pd.DataFrame(data)     
+#data_split=tmp_data['Full_Directory'].str.split('\\\\', expand=True)
+#data_split.columns = [f'Sub_dir_{i+1}' for i in range(data_split.shape[1])]
+#data=pd.concat([tmp_data, data_split], axis=1)
+#
+#if multiple_or_no_dot_handler == True:
+#    data['File_Format'] = data['File'].apply(lambda x: x.rsplit('.', 1)[-1] if '.' in x else 'WARNING: NODATAFORMAT')
+#else:
+#    data['File_Format'] = data['File'].str.split('.').str[-1]
+#
+#if give_second_dupreomved_df==True:
+#    count_perDirectandType = data.groupby(['Full_Directory', 'File_Format'])['File_Format'].count().reset_index(name='Count')
+#
+#end_time = time.time()  # Record the end time
+#elapsed_time = end_time - start_time
+#print(f"Execution time: {elapsed_time} seconds")
+#
+#
 
 
