@@ -1,6 +1,7 @@
-What is PanCanAID
+# What is PanCanAID
 An artificial intelligence model and associated data bank of CT scan, EUS, and survival of pathologically confirmed pancreas cancer (Pancreas ductal adenocarcinoma and pancreas neuroendocrine tumors) will be collected from seven medical centers. Annotation and manual segmentation will be handled by an expert reviewer and confirmed by a second investigator.
 
+# Project Steps
 <details>
 <summary>STEP 1: SORTING_Transfer_ANONYMIZATION<</summary>
 We collected data from centers in folders, named as patient ID (e.g. admission). We want to clean these directories, so 
@@ -18,3 +19,78 @@ Also, we asked 4 general practitioners to label our phases, since the series des
 
     I tried to add a heading 'changables', which contain all variables, direcotry, etc, that user should define to reuse this code. I hope it can help you on your project : )
 
+
+
+## MY TO DO
+<details>
+<summary>Data Collection from centers: </summary>
+- T
+- Ek
+- G
+- S
+- B
+- Eh
+- R
+- Y
+</details>
+
+<details>
+<summary>List of all CTs: </summary>
+- T
+- Ek
+- G
+- S
+- B
+- Eh
+- R
+- Y
+</details>
+
+<details>
+<summary>Validation (report or patho or physian or chemo/surgery):</summary>
+- T
+- Ek
+- G
+- S
+- B
+- Eh
+- R
+- Y
+</details>
+
+<details>
+<summary>Master Key Completion:</summary>
+- T
+- Ek
+- G
+- S
+- B
+- Eh
+- R
+- Y
+</details>
+
+
+<details>
+<summary>Anonymize and Server:</summary>
+- T
+- Ek
+- G
+- S
+- B
+- Eh
+- R
+- Y
+</details>
+
+<details>
+<summary>Follow-up calls</summary>
+- T
+- Ek
+- G
+- S
+- B
+- Eh
+- R
+- Y
+</details>
