@@ -24,79 +24,79 @@ Also, we asked 4 general practitioners to label our phases, since the series des
 ## MY TO DO
 <details>
 <summary>Data Collection from centers: </summary>
-- [] T
-- [] Ek
-- [] G
-- [] F
-- [] S
-- [] B
-- [] Eh
-- [] R
-- [] Y
+- [ ] T
+- [ ] Ek
+- [ ] G
+- [ ] F
+- [ ] S
+- [ ] B
+- [ ] Eh
+- [ ] R
+- [ ] Y
 </details>
 
 <details>
 <summary>List of all CTs: </summary>
-- [] T
-- [] Ek
-- [] G
-- [] F
-- [] S
-- [] B
-- [] Eh
-- [] R
-- [] Y
+- [ ] T
+- [ ] Ek
+- [ ] G
+- [ ] F
+- [ ] S
+- [ ] B
+- [ ] Eh
+- [ ] R
+- [ ] Y
 </details>
 
 <details>
 <summary>Validation (report or patho or physian or chemo/surgery):</summary>
-- [] T
-- [] Ek
-- [] G
-- [] F
-- [] S
-- [] B
-- [] Eh
-- [] R
-- [] Y
+- [ ] T
+- [ ] Ek
+- [ ] G
+- [ ] F
+- [ ] S
+- [ ] B
+- [ ] Eh
+- [ ] R
+- [ ] Y
 </details>
 
 <details>
 <summary>Master Key Completion:</summary>
-- [] T
-- [] Ek
-- [] G
-- [] F
-- [] S
-- [] B
-- [] Eh
-- [] R
-- [] Y
+- [ ] T
+- [ ] Ek
+- [ ] G
+- [ ] F
+- [ ] S
+- [ ] B
+- [ ] Eh
+- [ ] R
+- [ ] Y
 </details>
 
 
 <details>
 <summary>Anonymize and Server:</summary>
-- [] T
-- [] Ek
-- [] G
-- [] F
-- [] S
-- [] B
-- [] Eh
-- [] R
-- [] Y
+- [ ] T
+- [ ] Ek
+- [ ] G
+- [ ] F
+- [ ] S
+- [ ] B
+- [ ] Eh
+- [ ] R
+- [ ] Y
 </details>
 
 <details>
 <summary>Follow-up calls</summary>
-- [] T
-- [] Ek
-- [] G
-- [] F
-- [] S
-- [] B
-- [] Eh
-- [] R
-- [] Y
+- [ ] T
+- [ ] Ek
+- [ ] G
+- [ ] F
+- [ ] S
+- [ ] B
+- [ ] Eh
+- [ ] R
+- [ ] Y
 </details>
