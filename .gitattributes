@@ -1,0 +1,2 @@
+nbstripout --install --attributes .gitattributes
+nbstripout --install --global
