@@ -1,0 +1,4 @@
+#to hide juputer cell content (and untrack the outputs)
+#in [cmd] code pip install nbstripout --install --global
+#in [git] code nbstripout --install --global
+.env
