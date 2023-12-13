@@ -1,4 +1,4 @@
-# What is PanCanAID
+# What is [PanCanAID](http://pancanaid.com/)
 An artificial intelligence model and associated data bank of CT scan, EUS, and survival of pathologically confirmed pancreas cancer (Pancreas ductal adenocarcinoma and pancreas neuroendocrine tumors) will be collected from seven medical centers. Annotation and manual segmentation will be handled by an expert reviewer and confirmed by a second investigator.
 
 # Project Steps
@@ -17,7 +17,7 @@ In this step we will use XNAT-Desktop Client to upload dicom files, and then we 
 Also, we asked 4 general practitioners to label our phases, since the series descriptions are not valid among many centers involved in our study.
 </details>
 
-    I tried to add a heading 'changables', which contain all variables, direcotry, etc, that user should define to reuse this code. I hope it can help you on your project : )
+> I tried to add a heading 'changables', which contain all variables, direcotry, etc, that user should define to reuse this code. I hope it can help you on your project : )
 
 
 
