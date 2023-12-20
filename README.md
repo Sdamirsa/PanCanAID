@@ -1,9 +1,9 @@
 # What is [PanCanAID](http://pancanaid.com/)
-An artificial intelligence model and associated data bank of CT scan, EUS, and survival of pathologically confirmed pancreas cancer (Pancreas ductal adenocarcinoma and pancreas neuroendocrine tumors) will be collected from seven medical centers. Annotation and manual segmentation will be handled by an expert reviewer and confirmed by a second investigator.
+An artificial intelligence model and associated data bank of CT scan, EUS, and survival of pathologically confirmed pancreas cancer (Pancreas ductal adenocarcinoma and pancreas neuroendocrine tumors) will be collected from seven medical centres. Annotation and manual segmentation will be handled by an expert reviewer and confirmed by a second investigator.
 
-# A Code for you (RE-USE): extracting dicom meta, assigning pseudonymize number, rename folders, and anonymizing dicom
+# A Code for you (RE-USE): extracting dicom meta, assigning pseudonymized number, renaming folders, and anonymizing dicom
 
-I prepared a no-code python script that you can run from the command line. Please go to the folder named Step1_SortingFiles for detailed guide. 
+I prepared a no-code Python script that you can run from the command line. [Please go to the folder named Step1_SortingFiles for a detailed guide.](https://github.com/Sdamirsa/PanCanAID/blob/main/Step1_SortingFiles)
 
 It will guide you step by step to:
 1- extract the dicom meta and store it in an Excel and JSON file
@@ -16,9 +16,9 @@ However, it can identify dicom studies even located in one folder of the directo
 # Project Steps
 <details>
 <summary>STEP 1: SORTING_Transfer_ANONYMIZATION<</summary>
-We collected data from centers in folders, named as patient ID (e.g. admission). We want to clean these directories, so 
+We collected data from centres in folders, named as patient ID (e.g. admission). We want to clean these directories, so 
 I: Each CT study is placed in one folder
-II: Store cases in an excel file, with its dicom files in the table, and all other variables (outcome, clinical, pathology data) stored here. We call this master key, which also contains patient id (un-anonymized) along with the key for anonymization.
+II: Store cases in an excel file, with its dicom files in the table, and all other variables (outcome, clinical, pathology data) stored here. We call this master key, which also contains the patient id (un-anonymized) along with the key for anonymization.
 III: Transfer dicom-pnly files to new destination and anonymize these images.
 </details>
 
