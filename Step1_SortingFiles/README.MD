@@ -25,7 +25,7 @@ Open your command line (if you don't know how, [see this](https://www.digitalcit
 ###### 2. Installing Python
 Ensure that you installed python (if this is your first time, I recommend installing anaconda, which also contains many other required python packages. (See this for isntalling anaconda)(https://docs.anaconda.com/free/anaconda/install/windows/))
 ###### 3. Download my code
-I placed all codes in step 1 in one python file named 1_all_in_one_for_reuse.py. You should donwload this, and then you should know the path to this file. The path to file is something like this C:\User\Legion\Documents\PanCanAID\1_all_in_one_for_reuse.py
+I placed all codes in step 1 in one Python file named 1_all_in_one_for_reuse.py ([LINK TO FILE](https://github.com/Sdamirsa/PanCanAID/blob/main/Step1_SortingFiles/1_all_in_one_for_reuse.py)). You should download this ([if you don't know how, click this](https://www.wikihow.com/Download-a-File-from-GitHub)), and then you should know the path to this file. The path to file is something like this C:\User\Legion\Documents\PanCanAID\1_all_in_one_for_reuse.py
 ###### 4. run the python file
 write this in your command line: python {path to downloaded file}. For example you should write
     python C:\User\Legion\Documents\PanCanAID\1_all_in_one_for_reuse.py
