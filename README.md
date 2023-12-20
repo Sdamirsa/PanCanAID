@@ -1,6 +1,18 @@
 # What is [PanCanAID](http://pancanaid.com/)
 An artificial intelligence model and associated data bank of CT scan, EUS, and survival of pathologically confirmed pancreas cancer (Pancreas ductal adenocarcinoma and pancreas neuroendocrine tumors) will be collected from seven medical centers. Annotation and manual segmentation will be handled by an expert reviewer and confirmed by a second investigator.
 
+# A Code for you (RE-USE): extracting dicom meta, assigning pseudonymize number, rename folders, and anonymizing dicom
+
+I prepared a no-code python script that you can run from the command line. Please go to the folder named Step1_SortingFiles for detailed guide. 
+
+It will guide you step by step to:
+1- extract the dicom meta and store it in an Excel and JSON file
+2- Assing desired pseudonymized numbers to folder names, and then add this code to the previously created Excel file (optional)
+3- It will comprehensively anonymize dicom metadata (just necessary dicom meta will be remained), and assign folder name as patient name and id.
+
+That's it. Remember that for using it you should locate each dicom study (which can contain many files and series) in one folder in your directory.
+However, it can identify dicom studies even located in one folder of the directory (I am using study_id, study_date, and folder name to find unique studies). I wish you all luck in your projects, and since I was almost dead while handling so many tasks from so many centres I created this code for you and myself :) cheers
+
 # Project Steps
 <details>
 <summary>STEP 1: SORTING_Transfer_ANONYMIZATION<</summary>
