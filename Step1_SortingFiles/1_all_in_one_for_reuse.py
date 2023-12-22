@@ -209,7 +209,7 @@ while dicommeta_and_psudo_user is None:
         
         
 justpass=input(Fore.BLUE+'''----------------------- \n please make sure that you close all open files that are located in your directory, 
-      and say something (press any key for example 'go') afer you closed all open files '''+ Fore.RESET)
+      and press any key afer you closed all open files '''+ Fore.RESET)
 
 
 ### P3 ### P3.1 ### Functions:Extracting dicom meta -----------------------------------------------
@@ -501,82 +501,63 @@ while clean_to_path is None:
 
 
 
-InstitueName = input(Fore.BLUE+'''----------------------- \n I will assign folder name as patient name and patient id. \n
+InstitueName = input(Fore.BLUE+'''----------------------- \n I will assign folder name as patient name and patient id. 
                            Please define your desired text for institute, for example PanCanAID Project \n'''+ Fore.RESET)
     
 
-print(Fore.YELLOW+'start anononymizing dicom'+ Fore.RESET)
+print(Fore.YELLOW+'start anononymizing and updating and transfering dicoms'+ Fore.RESET)
 import pydicom as pm
 import dicognito.anonymizer
 from tqdm import tqdm
 import os
 
-anonymizer = dicognito.anonymizer.Anonymizer()
-dicom_from_path  = dicom_dir
-clean_to_path = clean_to_path #previously defined by user
 
-errors = {}
-for item in tqdm(os.listdir(dicom_from_path), desc='Total directories'):
-    if os.path.isdir(os.path.join(dicom_from_path, item)):
-        folder_input_path = os.path.join(dicom_from_path, item)
-        folder_output_path = os.path.join(clean_to_path, item)
-
-        if not os.path.exists(folder_output_path):
-            os.makedirs(folder_output_path)
-
-        for root, dirs, files in os.walk(folder_input_path):
-            for file in tqdm(files, desc=f'Anonymizing dicoms from {folder_input_path} to {folder_output_path}'):
-                dir_dcm_file = os.path.join(root, file)
-                if pm.misc.is_dicom(dir_dcm_file):  # Ensure this function exists in your pydicom version
+def Anonymize_and_update_dicom_metadata(dicom_from_path, clean_to_path, InstituteName='InstituteName'):
+    anonymizer = dicognito.anonymizer.Anonymizer()
+    errors = {}
+    for folder_name in tqdm(os.listdir(dicom_from_path), desc='reading directory'):
+        folder_input_path = os.path.join(dicom_from_path, folder_name)
+        if os.path.isdir(folder_input_path):
+            folder_output_path = os.path.join(clean_to_path, folder_name)
+            os.makedirs(folder_output_path, exist_ok=True)
+            for file in tqdm(os.listdir(folder_input_path), desc=f'anonymizing dicom from {folder_input_path}  to  {folder_output_path}'):
+                input_file_path = os.path.join(folder_input_path, file)
+                if pm.misc.is_dicom(input_file_path):
                     try:
-                        with pm.dcmread(dir_dcm_file) as dataset:
-                            anonymizer.anonymize(dataset)
-                            dataset.save_as(os.path.join(folder_output_path, "clean-" + file))
-                    except Exception as e:
-                        print(f"Error reading {file}::: {e} \n")
-                        errors[file] = str(e)
-    print(Fore.GREEN+f'FINISHED, anonymizing dicoms at {dicom_from_path}'+ Fore.RESET)
-                        
-                    
+                        dataset = pm.dcmread(input_file_path)
 
-# Output the errors at the end
-print("Errors encountered:", errors)
-    
-### P4 ### P4.1 Updating desired dicom meta----------
-print(Fore.YELLOW+'start assigning folder name as patient name and patient id; and updating institute'+ Fore.RESET)
-clean_to_path = clean_to_path #previously defined by user
-def update_dicom_metadata(directory):
-    for folder_name in tqdm(os.listdir(directory), desc='reading direcotry'):
-        folder_path = os.path.join(directory, folder_name)
-        if os.path.isdir(folder_path):
-            for file in tqdm(os.listdir(folder_path),desc=f'updating dicom meta at {folder_path}'):
-                file_path = os.path.join(folder_path, file)
-                if pm.misc.is_dicom(file_path):
-                    try:
-                        ds = pm.dcmread(file_path)
+                        if hasattr(dataset, 'remove_private_tags'):
+                            dataset.remove_private_tags()
 
-                        ds.remove_private_tags()
-                        if 'OtherPatientIDs' in ds:
-                            delattr(ds, 'OtherPatientIDs')
-                            
-                        if 'PatientID' in ds:
-                            ds.data_element('PatientID').value = folder_name
-                        if 'PatientName' in ds:
-                            ds.data_element('PatientName').value = folder_name
-                            
-                        if 'InstitutionName' in ds:
-                            ds.data_element('InstitutionName').value=InstitueName
-                        if 'InstitutionAddress' in ds:
-                            ds.data_element('InstitutionAddress').value=InstitueName
-                            
+                        if 'OtherPatientIDs' in dataset:
+                            if dataset.OtherPatientIDs.value != '':
+                                del dataset.OtherPatientIDs
+
+                        anonymizer.anonymize(dataset)
+
+                        if 'PatientID' in dataset:
+                            dataset.PatientID = folder_name
+                        if 'PatientName' in dataset:
+                            dataset.PatientName = folder_name
+                        if 'InstitutionName' in dataset:
+                            dataset.InstitutionName = InstituteName
+                        if 'InstitutionAddress' in dataset:
+                            dataset.InstitutionAddress = InstituteName
+
                         # Save the modified file
-                        ds.save_as(file_path)
+                        dataset.save_as(os.path.join(folder_output_path, "ancl_" + file))
                     except Exception as e:
-                        print(f"Error processing {file_path}: {e}")
-    print(Fore.GREEN+f'FINISHED, updating dicoms at {directory}'+ Fore.RESET)
-
-update_dicom_metadata(clean_to_path)
-
+                        print(f"Error processing {input_file_path}: {e}")
+                        errors[file] = str(e)+'\n'
+    print("Errors encountered: \n", errors)
 
 
+dicom_from_path = r"C:\PanCanAID_Valid_Control_20231221" #previously defined by user
+clean_to_path = clean_to_path
+InstituteName = InstitueName #previously defined by user
+Anonymize_and_update_dicom_metadata(dicom_from_path=dicom_from_path, clean_to_path=clean_to_path, InstituteName=InstituteName)
+
+
+
+print(Fore.GREEN+f'Finished. You can find anonymized and updated dicoms at {clean_to_path}'+ Fore.RESET)
 print(Fore.GREEN+'FINISHED, HURAY, Thanks for your patience. You can reach me at sdamirsa@gmail for any inquiry. bye bye.'+ Fore.RESET)
