@@ -1,6 +1,6 @@
 # For users (Radiologists)
-### [Introduction to XNAT and how you can log in, open cases, and do segmentation.](https://youtu.be/mC2qtRc-o6w)
-### Segmentation on XNAT
+### [Introduction to XNAT and how you can log in, open cases, and do segmentation (English)](https://youtu.be/mC2qtRc-o6w)
+### [Introduction to XNAT and how you can log in, open cases, and do segmentation for PanCanAID project Phase 1 (Persian)]()
 ###
 
 # For Project Owners
