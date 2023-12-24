@@ -11,6 +11,7 @@ Current project owners:
 - PanCanAID: ME :-)
 - AIS: Solale & Sabokbar
 - PeriFistAID: Narges
+- MREntero: Still me :) 
 
 ## Instructions
 ### [Optional] Pseudonymization before upload
