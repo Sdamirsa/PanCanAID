@@ -4,7 +4,7 @@
 
 
 # For Project Owners (Project admins)
-**IMPORTANT NOTE**
+**IMPORTANT NOTE: **
 Please make sure that you discuss your uploads (total size and number of image series). Please join the telegram channel to be in touch on server updates and all of other things. 
 
 Current project owners:
