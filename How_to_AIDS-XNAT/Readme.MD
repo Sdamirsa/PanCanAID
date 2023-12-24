@@ -21,9 +21,9 @@ Current project owners:
 - MREntero: Still me :) 
 
 #### Instructions for project owners
-##### [Optional] Pseudonymization before upload
-##### Uploading dicom files using XNAT-Desktol-Client
-##### [Deleting dicom series after upload (on website)](https://youtu.be/NIHyI6COtGE)
+###### [Optional] Pseudonymization before upload
+###### Uploading dicom files using XNAT-Desktol-Client
+###### [Deleting dicom series after upload (on website)](https://youtu.be/NIHyI6COtGE)
 
 
 # For XNAT Administrators (The XNAT admin=me :)
