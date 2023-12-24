@@ -6,9 +6,12 @@
 
 
 # For Project Owners (Project admins)
-**IMPORTANT NOTE: 
+**IMPORTANT NOTE:**
+
 Please make sure that you **discuss your uploads with me in advance** (total size and number of image series). Please join the telegram channel to be in touch on server updates and all other things. 
+
 Please **upload your cases in batches** (for example 50 cases each time). When the labelling is finished, you can download your ROIs delete files on the server, and upload your next batch. Why you should do this: First, if by any chance the server crashes, you will not. The second reason is that the cost of the server would become cheaper for me (hopefully).
+
 Please **download ROIs each week**, so if by any chance the server crashes, you won't lose all of your segmentations.
 
 Current project owners:
