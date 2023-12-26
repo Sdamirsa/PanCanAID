@@ -2,8 +2,8 @@
 
 #### Instructions for user
 ##### [Introduction to XNAT and how you can log in, open cases, and do segmentation (English)](https://youtu.be/mC2qtRc-o6w)
-##### [Introduction to XNAT and how you can log in, open cases, and do segmentation for PanCanAID project Phase 1 (Persian)](https://youtu.be/Qp1ydXVGoJc)
-
+##### [XNAT Segmentation for PanCanAID project Phase 1 (Persian)](https://youtu.be/Qp1ydXVGoJc)
+##### [How to use XNAT on your tablet](https://youtu.be/miYoJPJaPkU)
 
 # For Project Owners (Project admins)
 **IMPORTANT NOTE:**
