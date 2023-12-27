@@ -22,7 +22,7 @@ Current project owners:
 
 #### Instructions for project owners
 ###### [Optional] Pseudonymization before upload
-###### Uploading dicom files using XNAT-Desktol-Client
+###### [Uploading dicom files to XNAT using XNAT-Desktop-Client](https://youtu.be/7L-1BcOHhC4)
 ###### [Deleting dicom series after upload (on website)](https://youtu.be/NIHyI6COtGE)
 
 ###### [Problem with Dicom Reconstruction (3D error; why the alarm icon appears on image series)](https://youtu.be/xtYaUqBeGMY)
