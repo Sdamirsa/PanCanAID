@@ -3,7 +3,7 @@
 #### Instructions for user
 ##### [Introduction to XNAT and how you can log in, open cases, and do segmentation (English)](https://youtu.be/mC2qtRc-o6w)
 ##### [XNAT Segmentation for PanCanAID project Phase 1 (Persian)](https://youtu.be/Qp1ydXVGoJc)
-##### [How to use XNAT on your tablet](https://youtu.be/miYoJPJaPkU)
+##### [How to use XNAT on your tablet](https://youtu.be/M-5VpeRdUX8)
 
 # For Project Owners (Project admins)
 **IMPORTANT NOTE:**
@@ -25,6 +25,7 @@ Current project owners:
 ###### Uploading dicom files using XNAT-Desktol-Client
 ###### [Deleting dicom series after upload (on website)](https://youtu.be/NIHyI6COtGE)
 
+###### [Problem with Dicom Reconstruction (3D error; why the alarm icon appears on image series)](https://youtu.be/xtYaUqBeGMY)
 
 # For XNAT Administrators (The XNAT admin=me :)
 
