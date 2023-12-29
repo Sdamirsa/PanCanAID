@@ -40,8 +40,6 @@ Mahshad🟤
 Azin🟤
 Beni⚪️
 </details>
-
-
 </details>
 
 
@@ -71,8 +69,25 @@ https://github.com/Sdamirsa/PanCanAID/blob/main/For%20Team/ForPanCanAID_GP_Team.
 aorta, common hepatic artery, splenic artery
 
 </details>
+<details>
+<summary> My task </summary>
+تسک من :✅✅🔘🔘
 
+ساخت اکانت:✅
+Sara.p199877@gmail.com ✅
+Atraajdari1374@gmail.com ✅
+elhamtaghavi76@gmail.com ✅
+mahshadsarikhani9696@gmail.com ✅
+Azinzolfaghari2233@gmail.com ✅
+Beny.2012@yahoo.com ✅
 
+ایجاد پروژه : PanCanAID4GP ✅
+
+ایجاد پروژه : آپلود 15 کیس 🔘
+
+اساین کردن شماره کیس به افراد🔘
+
+</details>
 </details>
 
 
