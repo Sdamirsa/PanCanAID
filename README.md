@@ -116,7 +116,7 @@ Also, we asked 4 general practitioners to label our phases, since the series des
 ## Future and Ongoing Projects
 
 <details>
-<summary>PanCanAID: Aim 0: Phase Detection</summary>
+<summary>PanCanAID: Aim 0: Phase Detection ![](https://geps.dev/progress/10)</summary>
 - [ ] Team and Lead
 - [ ] Planning
 - [ ] Model Development
