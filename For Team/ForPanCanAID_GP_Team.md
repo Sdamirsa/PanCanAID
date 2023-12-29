@@ -1,4 +1,4 @@
-<detail>
+<details>
 <summary>Task 0: Learning CT scan Anatomy </summary>
 
 این کانتنت هایی هست که باید ببینیم :
@@ -26,4 +26,4 @@ https://radiologykey.com/abdominal-ct/
 https://www.casestacks.com/medical-school/radiographic-anatomy/abdomen/
 
 https://radiopaedia.org/cases/how-to-read-a-ct-of-the-abdomen-and-pelvis
-</detail>
+</details>
