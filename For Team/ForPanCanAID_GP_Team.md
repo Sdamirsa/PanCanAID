@@ -76,9 +76,8 @@ aorta, common hepatic artery, splenic artery
 </details>
 
 
-[View the interaction sheet](https://docs.google.com/spreadsheets/d/e/2PACX-1vRAPQ_cx4LfZlZ22N7JIzTWrOFUT3nJFB-ltXkAYAOZh8SgpTSPQPHg5fAFRPU1nExRsvAFVhHNqaq9/pubhtml?gid=0&single=true&widget=true&headers=false)
+
 
 (Log in to interaction sheet (for me))[https://docs.google.com/spreadsheets/d/1--oCk4GBRKVOJlOCskaS_X05p6ZGYkg2Fm32xySc2EI/edit?usp=sharing]
-
-
+[View the Spreadsheet](https://docs.google.com/spreadsheets/d/e/2PACX-1vRAPQ_cx4LfZlZ22N7JIzTWrOFUT3nJFB-ltXkAYAOZh8SgpTSPQPHg5fAFRPU1nExRsvAFVhHNqaq9/pubhtml?gid=0&single=true&widget=true&headers=false)
 
