@@ -114,8 +114,8 @@ Also, we asked 4 general practitioners to label our phases, since the series des
 </details>
 
 ## Future and Ongoing Projects
+
 <details>
-  <details>
 <summary>PanCanAID: Aim 0: Phase Detection</summary>
 - [ ] Team and Lead
 - [ ] Planning
@@ -123,6 +123,7 @@ Also, we asked 4 general practitioners to label our phases, since the series des
 - [ ] Data
 - [ ] Report
 </details>
+
 <details>
 <summary>PanCanAID: Aim 1: Segmentation of Pancreas</summary>
 - [X] Team and Lead
@@ -132,6 +133,7 @@ Also, we asked 4 general practitioners to label our phases, since the series des
 - [X] Report
 - For future: 3D SAM for abdominopelvic CT
 </details>
+
 <details>
 <summary>PanCanAID: Aim 2: Diagnosis of Pancreas Cancer in CECT (classification, segmentation, and subtype)</summary>
 - [X] Team and Lead
@@ -140,14 +142,16 @@ Also, we asked 4 general practitioners to label our phases, since the series des
 - [X] Data
 - [ ] Report
 </details>
+
 <details>
-<summary>PanCanAID: Aim 3: Screening of Pancreas Cancer in Plain CT (Classification, segmentation)
+<summary>PanCanAID: Aim 3: Screening of Pancreas Cancer in Plain CT (Classification, segmentation)</summary>
 - [ ] Team and Lead
 - [ ] Planning
 - [ ] Model Development
 - [ ] Data
 - [ ] Report
 </details>
+
 <details>
 <summary>PanCanAID: Aim 4: Prognose Prediction (Survival months and Staging) </summary>
 - [ ] Team and Lead
@@ -157,6 +161,7 @@ Also, we asked 4 general practitioners to label our phases, since the series des
 - [ ] Report
 </details>
 
+<details>
 <summary>PanCanAID: Aim 5: Resectability of Pancreas Cancer (Classification) </summary>
 - [ ] Team and Lead
 - [ ] Planning
@@ -164,6 +169,7 @@ Also, we asked 4 general practitioners to label our phases, since the series des
 - [ ] Data
 - [ ] Report
 </details>
+
 <details>
 <summary>PanCanAID2: Aim 1: Artificial Contrast Enhancment</summary>
 - [ ] Team and Lead
@@ -172,6 +178,7 @@ Also, we asked 4 general practitioners to label our phases, since the series des
 - [ ] Data
 - [ ] Report
 </details>
+
 <details>
 <summary>PanCanAID2: Aim 2: 3D Segmentataion</summary>
 - [ ] Team and Lead
@@ -180,6 +187,7 @@ Also, we asked 4 general practitioners to label our phases, since the series des
 - [ ] Data
 - [ ] Report
 </details>
+
 <details>
 <summary>PanCanAID2: Aim 3: Post-CHemo Resectability Assesment</summary>
 - [ ] Team and Lead
