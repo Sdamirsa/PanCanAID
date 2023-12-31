@@ -155,33 +155,34 @@ def count_subfolders(directory):
     return total_subfolders,total_files 
 dicom_dir_folder_count,dicom_dir_file_count=count_subfolders(dicom_dir)
 
-dicommeta_and_psudo_user=None
+dicommeta_and_psudo_user = None
+
 while dicommeta_and_psudo_user is None:
         
-    dicommeta_and_psudo_user=input(Fore.BLUE+f'''----------------------- \n you have {dicom_dir_folder_count} folders and total of {dicom_dir_file_count} files.
+    dicommeta_and_psudo_user = input(Fore.BLUE+f'''----------------------- \n you have {dicom_dir_folder_count} folders and total of {dicom_dir_file_count} files.
         Now I want to store these dicom studies, along with their series information in a json and excel file.
         This code will loop through all files, identify unique dicom studies (even if they are located in one sub folder, which is a bad practice).
-        Then it will store study information, patient information, and series infroamtion. Each diocm study may have multiple dicom series.
+        Then it will store study information, patient information, and series information. Each dicom study may have multiple dicom series.
         
-        After that, we can rename all folders to numbers. The folder number will be used in the next stages for the anonymizaiton 
-        (we will remove patient information and use folder names as patient ids). The whole process is commonly known as psudonymization. 
-        If you want me to do this, I will add a column to your excel called 'psudonymized_id' 
-        so you can retrive information of each case for future use, while the cases are fully anonymized. 
+        After that, we can rename all folders to numbers. The folder number will be used in the next stages for the anonymization 
+        (we will remove patient information and use folder names as patient ids). The whole process is commonly known as pseudonymization. 
+        If you want me to do this, I will add a column to your excel called 'pseudonymized_id' 
+        so you can retrieve information of each case for future use, while the cases are fully anonymized. 
         ----------------------- \n
-        If you want me to STORE DICOM META DATA IN EXCEL AND JSON, ONLY say ::: 'meta only'
-        If you want me to STORE DICOM META DATA &&& ASSIGN FOLDER NUMBERS say ::: 'meta with pseudo' \n \n 
+        If you want me to STORE DICOM META DATA IN EXCEL AND JSON ONLY, say: 'meta only'
+        If you want me to STORE DICOM META DATA AND ASSIGN FOLDER NUMBERS, say: 'meta with pseudo' \n \n 
+        If you want me to SKIP THIS PHASE, say: 'skip'
         '''+ Fore.RESET)
 
-    dicommeta_and_psudo_user_metaonly=['meta only', 'Meta Only', 'metaonly', 'Meta only']
-    dicommeta_and_psudo_user_metawpseudo=['meta with pseudo','Meta with pseudo','meta w pseudo','metawithpseudo','Meta with Pseudo', 
-                                        'meta with psudo', 'meta with psedo', 'meta with psoudo','meta with pseodu','meta with psdo']
+    dicommeta_and_psudo_user_metaonly = ['meta only', 'Meta Only', 'metaonly', 'Meta only']
+    dicommeta_and_psudo_user_metawpseudo = ['meta with pseudo', 'Meta with pseudo', 'meta w pseudo', 'metawithpseudo', 'Meta with Pseudo', 
+                                            'meta with psudo', 'meta with psedo', 'meta with psoudo', 'meta with pseodu', 'meta with psdo']
 
     if dicommeta_and_psudo_user in dicommeta_and_psudo_user_metaonly:
         dicommeta_and_psudo_user = 'meta only'
-        print('you choosed storing dicom meta only')
+        print('You chose to store dicom meta only.')
         
     elif dicommeta_and_psudo_user in dicommeta_and_psudo_user_metawpseudo:
-        dicommeta_and_psudo_user = 'meta with pseudo'
         while True:
             pseuo_start_number = input(Fore.BLUE+'''----------------------- \n Please give me your starting number with at least 4 digits. I will use this to rename your folders.
                                     For example, if you give me 3000, I will name folders as 1000, 1001, 1002, ...
@@ -193,17 +194,20 @@ while dicommeta_and_psudo_user is None:
                 break
             else:
                 print("Invalid input. Please enter a four-digit number.")
-        pseuo_start_beginingtext=input(Fore.BLUE+'''----------------------- \n if you want me to add some string (text) at the beggining of your folder names give me here.
-                        For example if you give me 'Case' I will rename folders as: Case_1001, Case_1002, ....
+        pseuo_start_beginingtext = input(Fore.BLUE+'''----------------------- \n if you want me to add some string (text) at the beginning of your folder names, give it to me here.
+                        For example, if you give me 'Case', I will rename folders as: Case_1001, Case_1002, ....
                         Leave blank if you don't want it. \n \n'''+ Fore.RESET)
-        if len(pseuo_start_beginingtext)>0:
-            pseuo_start_beginingtext=str(pseuo_start_beginingtext)+'_'
+        if len(pseuo_start_beginingtext) > 0:
+            pseuo_start_beginingtext = str(pseuo_start_beginingtext) + '_'
             
-        print(f'you choosed storing diomc meta and then changing folder names to pseudonymize numbers starting at {pseuo_start_beginingtext}{pseuo_start_number}')
+        dicommeta_and_psudo_user = f'meta with pseudo starting at {pseuo_start_beginingtext}{pseuo_start_number}'
+        print(f'You chose to store dicom meta and then change folder names to pseudonymized numbers starting at {pseuo_start_beginingtext}{pseuo_start_number}.')
             
-    
+    elif dicommeta_and_psudo_user == 'skip':
+        print('You chose to skip storing dicom meta data.')
     else:
-        print("Directory does not exist. Please try again.")        
+        print("Invalid input. Please try again.")
+        dicommeta_and_psudo_user = None     
 
 
         
@@ -552,7 +556,7 @@ def Anonymize_and_update_dicom_metadata(dicom_from_path, clean_to_path, Institut
     print("Errors encountered: \n", errors)
 
 
-dicom_from_path = r"C:\PanCanAID_Valid_Control_20231221" #previously defined by user
+dicom_from_path = dicom_dir #previously defined by user
 clean_to_path = clean_to_path
 InstituteName = InstitueName #previously defined by user
 Anonymize_and_update_dicom_metadata(dicom_from_path=dicom_from_path, clean_to_path=clean_to_path, InstituteName=InstituteName)
