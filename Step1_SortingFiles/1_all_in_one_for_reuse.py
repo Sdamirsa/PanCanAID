@@ -483,8 +483,126 @@ if dicommeta_and_psudo_user=='meta with pseudo':
     print(Fore.GREEN+ pseudo_excel_output_path+Fore.RESET)
     
 
+### P4 ### P4.1 Preparing files for Anonymization ----------
+#v2
+import os
+from tqdm import tqdm
+from IPython.display import HTML
+import pydicom as pm
+import shutil
 
-### P4 ### P4.1 Anonymizing Dicoms ----------
+
+def create_clickable_dir_path(dir_path):
+    # Convert the directory path to a file URL
+    file_url = f"{dir_path}"
+    return HTML(f'<a href="{file_url}" target="_blank">{dir_path}</a>')
+
+
+def add_series_2beginingoffile(directory, adding_directory_2progresbar=''):
+    renamed_count = 0
+    skipped_count = 0
+    for filename in tqdm(os.listdir(directory), desc=f'Adding series name {adding_directory_2progresbar} at the beginning of files', unit='folders'):
+        file_path = os.path.join(directory, filename)
+
+        # Check if it's a file and has a DICOM extension (optional)
+        if os.path.isfile(file_path) and pm.misc.is_dicom(file_path):
+            try:
+                # Read the DICOM file
+                dicom_file = pm.dcmread(file_path)
+
+                # Get the series number if it exists
+                if hasattr(dicom_file, 'SeriesNumber'):
+                    series_number = dicom_file.SeriesNumber
+                else:
+                    series_number = ''
+
+                # Check if the original file name already contains "SR"
+                if filename.startswith('SR'):
+                    new_filename = f"{series_number}_{filename}"
+                else:
+                    new_filename = f"SR{series_number}_{filename}"
+
+                new_file_path = os.path.join(directory, new_filename)
+
+                # Rename (replace) the file if the new file name does not exist
+                if not os.path.exists(new_file_path):
+                    os.rename(file_path, new_file_path)
+                    renamed_count += 1
+                else:
+                    skipped_count += 1
+
+            except Exception as e:
+                skipped_count += 1
+                print(f"Error processing {file_path}: {e}")
+
+    print(f"Total files skipped: {skipped_count}")
+    print(f"Total files renamed: {renamed_count}")
+
+
+def add_subfolder_name_and_move(main_directory, adding_directory_2progresbar=''):
+    files_moved = 0  # Initialize a counter for the number of files moved
+
+    for folder in tqdm(os.listdir(main_directory), desc=f'Move and rename data from subfolders of {adding_directory_2progresbar}', unit='folders'):
+        folder_path = os.path.join(main_directory, folder)
+
+        # Check if it's a directory
+        if os.path.isdir(folder_path):
+            for file in os.listdir(folder_path):
+                file_path = os.path.join(folder_path, file)
+
+                # Check if it's a file
+                if os.path.isfile(file_path):
+                    # Create new file name with subfolder prefix
+                    new_filename = f"{folder}_{file}"
+                    new_file_path = os.path.join(main_directory, new_filename)
+
+                    # Move and rename file if the new file name does not exist
+                    if not os.path.exists(new_file_path):
+                        shutil.move(file_path, new_file_path)
+                        files_moved += 1  # Increment the counter
+                    else:
+                        print(f"File {new_file_path} already exists. Skipping...")
+
+    # Print the total number of files moved
+    print(f"Total number of files moved: {files_moved}")
+
+    # Remove empty subfolders
+    empty_folder_removed = 0
+    for folder in os.listdir(main_directory):
+        folder_path = os.path.join(main_directory, folder)
+
+        # Check if the folder is empty and a directory
+        if os.path.isdir(folder_path) and not os.listdir(folder_path):
+            os.rmdir(folder_path)
+            empty_folder_removed += 1
+            print(f"Removed empty folder: {folder_path}")
+
+    remaining_folders = sum(os.path.isdir(os.path.join(main_directory, d)) for d in os.listdir(main_directory))
+
+    print(f"Number of empty folders removed: {empty_folder_removed}")
+    print(f"Number of remaining folders: {remaining_folders}")
+
+
+def folderedstudy_and_addingseriesname_handler(main_directory):
+    for folder in tqdm(os.listdir(main_directory), desc='Reading folders within directory', unit='files'):
+        folder_path = os.path.join(main_directory, folder)
+
+        if os.path.isdir(folder_path):
+            subfolders = [name for name in os.listdir(folder_path) if os.path.isdir(os.path.join(folder_path, name))]
+            count_subfolders = len(subfolders)
+            if count_subfolders > 0:
+                print(f"#{count_subfolders} Subfolders within: ")
+                display(create_clickable_dir_path(folder_path))
+                add_subfolder_name_and_move(folder_path, adding_directory_2progresbar=folder_path)
+                add_series_2beginingoffile(folder_path, adding_directory_2progresbar=folder_path)
+            else:
+                print(f"No subfolder exists in:")
+                display(create_clickable_dir_path(folder_path))
+                add_series_2beginingoffile(folder_path, adding_directory_2progresbar=folder_path)
+
+        print('-----------------------------------------')
+
+### P4 ### P4.2 Anonymizing Dicoms ----------
 
 clean_to_path = None
 
@@ -551,14 +669,20 @@ def Anonymize_and_update_dicom_metadata(dicom_from_path, clean_to_path, Institut
                         # Save the modified file
                         dataset.save_as(os.path.join(folder_output_path, "ancl_" + file))
                     except Exception as e:
-                        print(f"Error processing {input_file_path}: {e}")
-                        errors[file] = str(e)+'\n'
+                        print(f"Error processing {folder_output_path, input_file_path}: {e}")
+                        errors[input_file_path] = str(e)+'\n'
     print("Errors encountered: \n", errors)
+
+
+
 
 
 dicom_from_path = dicom_dir #previously defined by user
 clean_to_path = clean_to_path
 InstituteName = InstitueName #previously defined by user
+print(Fore.YELLOW+f'START: Preparing files in {dicom_from_path} for anonymizasion'+Fore.RESET)
+folderedstudy_and_addingseriesname_handler(dicom_from_path)
+print(Fore.YELLOW+f'Finish: Preparing files in {dicom_from_path} for anonymizasion'+Fore.RESET)
 Anonymize_and_update_dicom_metadata(dicom_from_path=dicom_from_path, clean_to_path=clean_to_path, InstituteName=InstituteName)
 
 
