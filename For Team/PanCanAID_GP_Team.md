@@ -3,7 +3,6 @@
 <details>
 <summary>یادگرفتن آناتومی با ویدیو های زیر</summary>
 
-  
 https://www.youtube.com/watch?v=Nnr4ZB8e4nc&t=78s  (60min)
 
 https://www.youtube.com/watch?v=ytOLnjWCt1Y (10 min)
@@ -18,7 +17,9 @@ https://www.youtube.com/watch?v=IXQPN-Un7OI این ویدیو لکتوریو ع�
 
 اگر فکر کردید کمکتون میکنه برای ورید و شریان ها: 
 https://www.youtube.com/watch?v=aIrdWHtm_og شریان ها 
+
 https://www.youtube.com/watch?v=54SV29gkM7Y&t=176s سی تی پانکراس
+
 https://www.youtube.com/watch?v=47qy-2mn72s خوندن سی تی آناتومی
 
 https://www.youtube.com/watch?v=IXQPN-Un7OI این ویدیو لکتوریو عالیه
