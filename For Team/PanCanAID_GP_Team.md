@@ -1,4 +1,52 @@
 این صفحه برای اینتراکشن من با تیم GP هست. جی پی از بچه های جی پی درست شده که توی پروژه بهمون کمک میکنن. همه چیز توی همین صفحه و تلگراممون هست. پایین لینک گوگل شیتی هست که من اینتراکشنمونو توش مینویسم. میتونید نگاه کنید اگر خواستید
+# START HERE
+<details>
+<summary>یادگرفتن آناتومی با ویدیو های زیر</summary>
+
+  
+https://www.youtube.com/watch?v=Nnr4ZB8e4nc&t=78s  (60min)
+
+https://www.youtube.com/watch?v=ytOLnjWCt1Y (10 min)
+
+https://www.youtube.com/watch?v=IXQPN-Un7OI  (13 min)
+
+https://www.youtube.com/watch?v=VnpqylFYtqI  (25 min)
+
+https://www.youtube.com/watch?v=lUJnciH8Blo  (10 min)
+
+https://www.youtube.com/watch?v=IXQPN-Un7OI این ویدیو لکتوریو عالیه
+
+اگر فکر کردید کمکتون میکنه برای ورید و شریان ها: 
+https://www.youtube.com/watch?v=aIrdWHtm_og شریان ها 
+https://www.youtube.com/watch?v=54SV29gkM7Y&t=176s سی تی پانکراس
+https://www.youtube.com/watch?v=47qy-2mn72s خوندن سی تی آناتومی
+
+https://www.youtube.com/watch?v=IXQPN-Un7OI این ویدیو لکتوریو عالیه
+
+این هم وب پیج هایی هست که رفرنس هستن:
+
+https://radiologyassistant.nl/more/ct-protocols/ct-contrast-injection-and-protocols#basics-of-contrast-enhancement-phases-of-enhancement 
+
+https://litfl.com/abdominal-ct-phases/
+
+https://radiologykey.com/abdominal-ct/
+
+یک نمونه های خیلی خوب از آناتومی سگمنت شده هستن که چشمتون آشنا بشه
+
+https://www.casestacks.com/medical-school/radiographic-anatomy/abdomen/
+
+https://radiopaedia.org/cases/how-to-read-a-ct-of-the-abdomen-and-pelvis
+</details>
+<details>
+<summary>یادگرفتن نحوه کار با سرور و سگمنتیشن</summary>
+https://www.youtube.com/watch?v=Qp1ydXVGoJc
+لطفا یوزر و پسوردتون و امکان اکسپورت کردن سگمنتیشنتون رو اول از هر چیزی چک کنید.
+</details>
+
+<details>
+<summary> شروع سگمنتیشن روی هر تسک</summary>
+لطفا اول دقیقا بپرسید که چه چیزی رو با چه لیبلی باید سگمنت کنید و بعد شروع کنید به کار. خیلییییییییییییییی ممنونم ازتون
+</details>
 
 
 # Task
