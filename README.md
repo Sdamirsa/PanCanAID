@@ -1,17 +1,17 @@
 # What is [PanCanAID](http://pancanaid.com/)
-An artificial intelligence model and associated data bank of CT scan, EUS, and survival of pathologically confirmed pancreas cancer (Pancreas ductal adenocarcinoma and pancreas neuroendocrine tumors) will be collected from seven medical centres. Annotation and manual segmentation will be handled by an expert reviewer and confirmed by a second investigator.
+An artificial intelligence model and associated data bank of CT scan, EUS, and survival of pathologically confirmed pancreas cancer (Pancreas ductal adenocarcinoma and pancreas neuroendocrine tumours) will be collected from seven medical centres. Annotation and manual segmentation will be handled by an expert reviewer and confirmed by a second investigator.
 
-# A Code for you (RE-USE): extracting dicom meta, assigning pseudonymized number, renaming folders, and anonymizing dicom
+# A Code for you (RE-USE): extracting dicom meta, assigning pseudonymized numbers, renaming folders, and anonymizing dicom
 
 I prepared a no-code Python script that you can run from the command line. [Please go to the folder named Step1_SortingFiles for a detailed guide.](https://github.com/Sdamirsa/PanCanAID/blob/main/Step1_SortingFiles)
 
 It will guide you step by step to:
 1- extract the dicom meta and store it in an Excel and JSON file
 2- Assing desired pseudonymized numbers to folder names, and then add this code to the previously created Excel file (optional)
-3- It will comprehensively anonymize dicom metadata (just necessary dicom meta will be remained), and assign folder name as patient name and id.
+3- It will comprehensively anonymize dicom metadata (just necessary dicom meta will remain), and assign folder names as patient names and id.
 
 That's it. Remember that for using it you should locate each dicom study (which can contain many files and series) in one folder in your directory.
-However, it can identify dicom studies even located in one folder of the directory (I am using study_id, study_date, and folder name to find unique studies). I wish you all luck in your projects, and since I was almost dead while handling so many tasks from so many centres I created this code for you and myself :) cheers
+However, it can identify dicom studies in one folder of the directory (I am using study_id, study_date, and folder name to find unique studies). I wish you all luck in your projects, and since I was almost dead while handling so many tasks from so many centres I created this code for you and myself :) cheers
 
 # Project Steps
 <details>
@@ -112,3 +112,88 @@ Also, we asked 4 general practitioners to label our phases, since the series des
 - [ ] R
 - [ ] Y
 </details>
+
+## Future and Ongoing Projects
+
+<details>
+<summary>PanCanAID: Aim 0: Phase Detection ![](https://geps.dev/progress/10)</summary>
+- [ ] Team and Lead
+- [ ] Planning
+- [ ] Model Development
+- [ ] Data
+- [ ] Report
+</details>
+
+<details>
+<summary>PanCanAID: Aim 1: Segmentation of Pancreas</summary>
+- [X] Team and Lead
+- [X] Planning
+- [X] Model Development
+- [X] Data
+- [X] Report
+- For future: 3D SAM for abdominopelvic CT
+</details>
+
+<details>
+<summary>PanCanAID: Aim 2: Diagnosis of Pancreas Cancer in CECT (classification, segmentation, and subtype)</summary>
+- [X] Team and Lead
+- [X] Planning
+- [ ] Model Development
+- [X] Data
+- [ ] Report
+</details>
+
+<details>
+<summary>PanCanAID: Aim 3: Screening of Pancreas Cancer in Plain CT (Classification, segmentation)</summary>
+- [ ] Team and Lead
+- [ ] Planning
+- [ ] Model Development
+- [ ] Data
+- [ ] Report
+</details>
+
+<details>
+<summary>PanCanAID: Aim 4: Prognose Prediction (Survival months and Staging) </summary>
+- [ ] Team and Lead
+- [ ] Planning
+- [ ] Model Development
+- [ ] Data
+- [ ] Report
+</details>
+
+<details>
+<summary>PanCanAID: Aim 5: Resectability of Pancreas Cancer (Classification) </summary>
+- [ ] Team and Lead
+- [ ] Planning
+- [ ] Model Development
+- [ ] Data
+- [ ] Report
+</details>
+
+<details>
+<summary>PanCanAID2: Aim 1: Artificial Contrast Enhancment</summary>
+- [ ] Team and Lead
+- [ ] Planning
+- [ ] Model Development
+- [ ] Data
+- [ ] Report
+</details>
+
+<details>
+<summary>PanCanAID2: Aim 2: 3D Segmentataion</summary>
+- [ ] Team and Lead
+- [ ] Planning
+- [ ] Model Development
+- [ ] Data
+- [ ] Report
+</details>
+
+<details>
+<summary>PanCanAID2: Aim 3: Post-CHemo Resectability Assesment</summary>
+- [ ] Team and Lead
+- [ ] Planning
+- [ ] Model Development
+- [ ] Data
+- [ ] Report
+</details>
+
