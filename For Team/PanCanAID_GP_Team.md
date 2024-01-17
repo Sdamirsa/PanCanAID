@@ -23,6 +23,8 @@
 
 اگر پزشک عمومی هستید نیاز هست قبلش یک سری ویدیو ببینید (تسک 0) و یک تست کیس رو سگمنت کنید و اگر واقعا کوالیتی کار به سطحی بود که قابل استفاده باشه جوین بشید. سگمنتیشن میکسی از دانش و مهارت چشمی و دستتون هست ، چون این داده ها قراره بعدا توی مدل ها استفاده بشه ، بهتر این هست که من یک کیس تست رو از شما هدیه بگیرم (هدیه زور) تا اینکه هم وقت شما و هم سالمتی کسی ، حتی 1 درصد ، تحت تاثیر باشه. 
 
+** لطفا سعی کنید در یک تصویر (در یک فاز با تعداد تصویر کمتر = thick ) انجام بدید. علامت تعجب در گوشه تصویر نباشه (در نوار سمت چپ ، اون سری علامت تعجب نداشته باشه). حتما کات آگزیال باشه. بهتره فاز آرتریال باشه (ولی دیلی یا هر چیز دیگه ای که دوست دارید هم میشه).**
+
 پروژه به تسک های مختلف شکسته شده که متناسب با سطح مهارت باشه و هر تسک توضیحات مشخص داشته باشه.
 <details>
 <summary>Task 0: learning anatomy</summary>
@@ -74,6 +76,8 @@ https://radiopaedia.org/cases/how-to-read-a-ct-of-the-abdomen-and-pelvis
 
 در استپ بعدی باید بفهمید چه چیزی رو باید سگمنت کنید ، و چه اسمی براش بگذارید و چه شماره کیسی رو باید انجام بدید. از همین پایین میتونید بفهمید لیبل های تسکی که دارید چه لیبل هایی هستن و چه تعریفی دارن. شماره کیستون هم علاوه بر گروه تلگرام توی گوگل شیت پایین صفحه هستش و میتونید ببینید. پس میتونید بفهمید چه چیزی رو ، با چه اسم مخففی و برای چه کیسی باید لطف کنید و سگمنت کنید.
 
+ 
+
 بهترین کار برای سگمنتیشن ، خرید یک قللم و صفحه هست که به صرفه ترین آپشن قلم XP Pen Deco V2 01 هست که نزدیک 3 ملیون قیمتش هست. سرعت سگمنتیشنتون رو 2 برابر میکنه و دقتش رو هم 50 درصد بیشتر میکنه. 
 
 
@@ -81,20 +85,20 @@ https://radiopaedia.org/cases/how-to-read-a-ct-of-the-abdomen-and-pelvis
 
 
 <details> 
-<summary>Task, Pancreas Diagnostic Segemtaion (Radiologist) </summary>
+<summary>Task, Pancreas Diagnostic Segemtaion (PDS) (Radiologist) </summary>
 
-سلام :) مرسی که تا اینجا اومدید. این تسک برای لول رادیولوژیست ها هست و هدفش کمک به مدل ها برای استفاده از دانش شما در مدل هست تا بهتر بفهمه سرطان و پانکراس و ارگان های اطرافش کجاست. میتونید در 2 نوبت یا در 1 نوبت همه تسک ها رو انجام بدید. سلیفه آدما متفاوته. خواستون باشه سرور هر 1 ساعت شما رو بیرون میکنه (من میکنمش 2 ساعت ولی چون هر هفته ریست میشه اتومات ممکنه یادم رفته باشه. پس سیو کنید سگمنتیشنتون رو هر نیم ساعت لطفا. من هم حواسم هست که هر سری که ریست میشه بکنم 2 ساعت تایم اتوماتیک لاگ اون رو. چیز هایی که سگمنت میشن در این تسک:
+سلام :) مرسی که تا اینجا اومدید. این تسک برای لول رادیولوژیست ها هست و هدفش کمک به مدل ها برای استفاده از دانش شما در مدل هست تا بهتر بفهمه سرطان و پانکراس و ارگان های اطرافش کجاست. میتونید در 2 نوبت یا در 1 نوبت همه تسک ها رو انجام بدید. سلیفه آدما متفاوته. حواستون باشه سرور هر 1 ساعت شما رو بیرون میکنه (من میکنمش 2 ساعت ولی چون هر هفته ریست میشه اتومات ممکنه یادم رفته باشه. پس سیو کنید سگمنتیشنتون رو هر نیم ساعت لطفا. من هم حواسم هست که هر سری که ریست میشه بکنم 2 ساعت تایم اتوماتیک لاگ اون رو. چیز هایی که سگمنت میشن در این تسک:
 
 برای اینکه یه جایی باشه که یه توضیح کلی درباره هر چیزی بده [رفرنسمون اینجا باشه رادیولوژی مسترکلاس برای پانکراس](https://radiologyassistant.nl/abdomen/pancreas/pancreas-carcinoma-1#staging-dpcg-resectability-criteria)
 
-### Task 1.1: Segmetation for Segmetaion
+### Task PDS.1: Segmetation for Segmetaion
 **P: Pancreas:** khode organ pancreas ( kar sakhti hast daghighan roye border pancreas harkeat konid, pas lotfan ro be biron tar ghash konid toye segmentatioshenot ta oon charbi haii ke atrafe pancreas hast va yek hashie mahvi mide ham include beshe) 
 
 **M: Mass:** dar sorate vojod tode, mass ro rang konid, lotfan aval pancreas ro rang kkonid bad mass. Dar segmentation har pixel mote'alegh be yek va faghat yek label mitone bashe. Ma badan mass ro jozvi az pancreas mikoim, vali shoma age bar ax amal konid (yani aval mass ro rang konid bad pancreas ro) baes mishe yek ghesmataii az mass tabdil be pancreas beshe va ma nemifahmim mass bode 
 
 **MPD: Main Pancreatic Duct dilation: agar MPD dilation dashtim, bayad rang beshe khode duct (agar nabod ham nemsihe) 
 
-### Task 1.2: Classification
+### Task PDS.2: Classification
 
 خب این تسک ها سگمنتیشن مهم بود ، برای تسم های بعدی بیشتر جنبه کلسیفیکشنی دارن. یعنی اگر یک موردی بود فقط کافیه با رنگ مربوطه داخل اون جایی که میبنید و فکر میکنید اون مشکل وجود داره ، یک نقطه بگذارید با استفاده از اون لیبل. 
 **RegN: Regional lymph node metastasis**
@@ -116,8 +120,40 @@ https://radiopaedia.org/cases/how-to-read-a-ct-of-the-abdomen-and-pelvis
 </details>
 
 <details> 
-<summary>Task, Pancreas Anatomy Segmentation  </summary>
-سلام سلام ، خیلی مرسی که تا اینجا اومدید. هدف از این سگمنتیشن ، سگمنت کردن آناتومی مرتبط با سرطان پانکراس هست
+<summary>Task, Pancreas Anatomy Segmentation (PAS)   </summary>
+سلام سلام ، خیلی مرسی که تا اینجا اومدید. هدف از این سگمنتیشن ، سگمنت کردن آناتومی مرتبط با سرطان پانکراس هست. رفرنس ها و منابع آموزشیمون بالاتر گذاشتم. پیشنهاد من اینه که در چند قسمت کار رو انجام بدید. حواستون باشه سرور هر 1 ساعت شما رو بیرون میکنه (من میکنمش 2 ساعت ولی چون هر هفته ریست میشه اتومات ممکنه یادم رفته باشه. پس سیو کنید سگمنتیشنتون رو هر نیم ساعت لطفا. من هم حواسم هست که هر سری که ریست میشه بکنم 2 ساعت تایم اتوماتیک لاگ اون رو. چیز هایی که سگمنت میشن در این تسک با لیبلشون این زیر هستنو حواستون باشه اولین چیزی که رنگ میکنید پانکراس باشه ، و بقیه چیز های در 2-3 کات بالاتر از بالاترین جایی که پانکراس هست و 2-3 کات پایین تر از پایینترین جایی که پانکراس هست انجام بدید (نرید کل عکس از بالا تا پایین رو انجام بدید). لطفا سعی کنید در یک تصویر (در یک فاز با تعداد تصویر کمتر = thick ) انجام بدید. حتما کات آگزیال باشه. بهتره فاز آرتریال باشه (ولی دیلی یا هر چیز دیگه ای که دوست دارید هم میشه).
+### Task PAS.1. Pancreas + 
+P=Pancreas; M= mass (agar didid)
+
+### Task PAS.2. Artery and Veins 
+Arteries (5ta): aorta = AA, superior mesantric artery = SMA, common hepatic artery = CHA, celiac artery =CA, splenic artery = SA
+
+Veins (4ta): IVC = IVC , superior mesantric vein = SMV و   portal vein = PV  و splenic vein = SV
+
+
+
+### Task PAS.3. Other Organs
+
+BT = Biliary Tree including CBD
+
+Organs (5ta): L= Liver; Sp= Spleen; K= Kideny; St=Stomache; D=Deudenum
+
+</details>
+
+
+<details> 
+<summary>Task, AllAbdomenAnatomi (AAA.CT) (Radiologist) </summary>
+  این یک کار جدا هست و نفری 4 کیس رو هم بتونیم سگمنت کنیم عالی هست. تمام عسک از بالا تا پایین سگمنت میشه (در کات آگزیال در فازی که میخواید).
+  
+Organs: P=Pancreas; M= mass; L= Liver; Sp= Spleen; K= Kideny; St=Stomache; D=Deudenum
+  
+Veins (4): IVC = IVC , superior mesantric vein = SMV و   portal vein = PV  و splenic vein = SV
+
+Arteries (5): aorta = AA, superior mesantric artery = SMA, common hepatic artery = CHA, celiac artery =CA, splenic artery = SA
+
+Biliary Tree: CBD:  common bile duct,
+
+Adrenal galnd + intestine
 </details>
 
 
@@ -128,7 +164,13 @@ https://radiopaedia.org/cases/how-to-read-a-ct-of-the-abdomen-and-pelvis
 
 
 
-# Notes for me and my to-do list
+# Interaction spreadsheet 
+[Login to interaction sheet (for me)](https://docs.google.com/spreadsheets/d/1--oCk4GBRKVOJlOCskaS_X05p6ZGYkg2Fm32xySc2EI/edit?usp=sharing)
+
+[View the interaction sheet (for team)](https://docs.google.com/spreadsheets/d/e/2PACX-1vRAPQ_cx4LfZlZ22N7JIzTWrOFUT3nJFB-ltXkAYAOZh8SgpTSPQPHg5fAFRPU1nExRsvAFVhHNqaq9/pubhtml?gid=0&single=true&widget=true&headers=false)
+
+
+##### Notes for me and my to-do list
 <details>
 <summary> My task </summary>
 تسک من :✅✅🔘🔘
@@ -161,14 +203,4 @@ Beny.2012@yahoo.com ✅
 
 </details>
 
-
-
-
-
-
-
-# Interaction spreadsheet 
-[Login to interaction sheet (for me)](https://docs.google.com/spreadsheets/d/1--oCk4GBRKVOJlOCskaS_X05p6ZGYkg2Fm32xySc2EI/edit?usp=sharing)
-
-[View the interaction sheet (for team)](https://docs.google.com/spreadsheets/d/e/2PACX-1vRAPQ_cx4LfZlZ22N7JIzTWrOFUT3nJFB-ltXkAYAOZh8SgpTSPQPHg5fAFRPU1nExRsvAFVhHNqaq9/pubhtml?gid=0&single=true&widget=true&headers=false)
 
