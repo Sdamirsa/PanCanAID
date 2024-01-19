@@ -142,7 +142,7 @@ Organs (5ta): L= Liver; Sp= Spleen; K= Kideny; St=Stomache; D=Deudenum
 
 
 <details> 
-<summary>Task, AllAbdomenAnatomi (AAA.CT) (Radiologist) </summary>
+<summary>Task, AllAbdomenAnatomy (AAA.CT) (Radiologist-and-GP) </summary>
   این یک کار جدا هست و نفری 4 کیس رو هم بتونیم سگمنت کنیم عالی هست. تمام عسک از بالا تا پایین سگمنت میشه (در کات آگزیال در فازی که میخواید).
   
 Organs: P=Pancreas; M= mass; L= Liver; Sp= Spleen; K= Kideny; St=Stomache; D=Deudenum
