@@ -1,5 +1,8 @@
 این صفحه برای اینتراکشن من با تیم GP هست. جی پی از بچه های جی پی درست شده که توی پروژه بهمون کمک میکنن. همه چیز توی همین صفحه و تلگراممون هست. این لینک گوگل شیتی هست که من اینتراکشنمونو توش مینویسم (اینکه چه کسی چه کاری ، روی چه کیسی در چه زمانی کرده و باید بکنه). میتونید شماره کیس هاتون رو هم توش پیدا کنید و تسکی که دارید: 
-[View the interaction sheet (for team)](https://docs.google.com/spreadsheets/d/e/2PACX-1vRAPQ_cx4LfZlZ22N7JIzTWrOFUT3nJFB-ltXkAYAOZh8SgpTSPQPHg5fAFRPU1nExRsvAFVhHNqaq9/pubhtml?gid=0&single=true&widget=true&headers=false)
+
+[View the case list and assigned person (for team)](https://docs.google.com/spreadsheets/d/e/2PACX-1vRAPQ_cx4LfZlZ22N7JIzTWrOFUT3nJFB-ltXkAYAOZh8SgpTSPQPHg5fAFRPU1nExRsvAFVhHNqaq9/pubhtml?gid=910393672&single=true)
+
+[View the deadline and contribution of assessors (for team)](https://docs.google.com/spreadsheets/d/e/2PACX-1vRAPQ_cx4LfZlZ22N7JIzTWrOFUT3nJFB-ltXkAYAOZh8SgpTSPQPHg5fAFRPU1nExRsvAFVhHNqaq9/pubhtml?gid=1534929710&single=true)
 ### معرفی پروژه و نحوه همکاری
 <details>
 <summary>نمایش توضیحات پروژه و نحوه همکاری</summary>
@@ -167,7 +170,9 @@ Adrenal galnd + intestine
 # Interaction spreadsheet 
 [Login to interaction sheet (for me)](https://docs.google.com/spreadsheets/d/1--oCk4GBRKVOJlOCskaS_X05p6ZGYkg2Fm32xySc2EI/edit?usp=sharing)
 
-[View the interaction sheet (for team)](https://docs.google.com/spreadsheets/d/e/2PACX-1vRAPQ_cx4LfZlZ22N7JIzTWrOFUT3nJFB-ltXkAYAOZh8SgpTSPQPHg5fAFRPU1nExRsvAFVhHNqaq9/pubhtml?gid=0&single=true&widget=true&headers=false)
+[View the case list and assigned person (for team)](https://docs.google.com/spreadsheets/d/e/2PACX-1vRAPQ_cx4LfZlZ22N7JIzTWrOFUT3nJFB-ltXkAYAOZh8SgpTSPQPHg5fAFRPU1nExRsvAFVhHNqaq9/pubhtml?gid=910393672&single=true)
+
+[View the deadline and contribution of assessors (for team)](https://docs.google.com/spreadsheets/d/e/2PACX-1vRAPQ_cx4LfZlZ22N7JIzTWrOFUT3nJFB-ltXkAYAOZh8SgpTSPQPHg5fAFRPU1nExRsvAFVhHNqaq9/pubhtml?gid=1534929710&single=true)
 
 
 ##### Notes for me and my to-do list
