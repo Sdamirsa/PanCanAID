@@ -5,7 +5,7 @@
 ##### [XNAT Segmentation for PanCanAID project Phase 1 (Persian)](https://youtu.be/Qp1ydXVGoJc)
 ##### [How to use XNAT on your tablet](https://youtu.be/M-5VpeRdUX8)
 
-# For Project Owners (Project admins)
+# For Project Owners (Project admins who wants to transfer data)
 **IMPORTANT NOTE:**
 
 Please make sure that you **discuss your uploads with me in advance** (total size and number of image series). Please join the telegram channel to be in touch on server updates and all other things. 
@@ -24,8 +24,13 @@ Current project owners:
 ###### [Optional] Pseudonymization before upload
 ###### [Uploading dicom files to XNAT using XNAT-Desktop-Client](https://youtu.be/7L-1BcOHhC4)
 ###### [Deleting dicom series after upload (on website)](https://youtu.be/NIHyI6COtGE)
+###### [Downloading files (image/segmentations) from XNAT using XNAT-Desktop-Client](https://youtu.be/eBky4wjyBT0)
 
 ###### [Problem with Dicom Reconstruction (3D error; why the alarm icon appears on image series)](https://youtu.be/xtYaUqBeGMY)
+
+### Notes for project owners
+During your upload/downloads, the website will be dangerously slow. Do your transfer during no-use hours.
+
 
 # For XNAT Administrators (The XNAT admin=me :)
 
