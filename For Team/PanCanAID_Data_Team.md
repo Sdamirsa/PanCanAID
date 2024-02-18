@@ -1,6 +1,6 @@
 این صفحه برای اینتراکشن من با تیم داده هست. تیم داده ، دانشجو هایی هستن که به من کمک کردن و بدون وجود اونا هیچ وقت همچین پروژه ای شکل نمیگرفت. خیلی ازتون ممنونم ، و امیدوارم بتونم تلاشاتون و زمانتون رو معنی دار کنم و به درد مریضا بخوره این داده ها. 
 
-# Instruction for Data Collection Video 1:
+# [Instruction for Data Collection Video 1:](https://youtu.be/iRXhPDwG-nI)
 
 - Case Definition and How to Find Them (code gozari, physian based)
 - Control Definition and How to Find Them (keral to PACS, kode gozari)
