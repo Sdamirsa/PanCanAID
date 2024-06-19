@@ -163,11 +163,6 @@ Adrenal galnd + intestine
 
 
 
-
-
-
-
-
 # Interaction spreadsheet 
 [Login to interaction sheet (for me)](https://docs.google.com/spreadsheets/d/1--oCk4GBRKVOJlOCskaS_X05p6ZGYkg2Fm32xySc2EI/edit?usp=sharing)
 
@@ -209,4 +204,9 @@ Beny.2012@yahoo.com ✅
 
 </details>
 
+### Message Template after Completion of Task
+user_name:
+case_number:
+Task:
+List of objects, separated by a comma:
 
