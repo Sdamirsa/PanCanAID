@@ -213,3 +213,5 @@ Task:
 
 List of objects, separated by a comma:
 
+Name of segmentation file: 
+
