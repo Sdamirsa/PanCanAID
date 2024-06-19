@@ -7,6 +7,8 @@ Task:
 
 List of objects, separated by a comma:
 
+Name of segmentation file: 
+
 [ ] Naming of Variables (i.e., segmentation objects)
 
 [ ] Naming of Exported file
