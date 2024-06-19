@@ -1,4 +1,11 @@
 # Evaluation of Segmentaitons for Test Users
+user_name:
+
+case_number:
+
+Task:
+
+List of objects, separated by a comma:
 
 [ ] Naming of Variables (i.e., segmentation objects)
 
@@ -9,3 +16,4 @@
 [ ] Segmentation of organs 2-3 slice upper than the pancreas upper bound and lower than the pancreas lower bound
 
 [ ] Sending the message template in telegram 
+
