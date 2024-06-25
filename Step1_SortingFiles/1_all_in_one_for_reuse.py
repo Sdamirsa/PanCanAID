@@ -80,7 +80,7 @@ if missing_packages:
     print(f"pip install {' '.join(missing_packages)}")
 else:
     print("All required packages are installed.")
-    no_missing_packages=True
+    no_missing_packages=True ### PROBLEM
 
 
 
@@ -470,6 +470,7 @@ if dicommeta_and_psudo_user=='meta with pseudo':
     print('the folder mapping is: ')
     print(folder_mapping)
 
+    ##ss
     
     #adding folder mapping to previously stored excel
     excel_dir=ensure_excel_extension(dicom_dir)
