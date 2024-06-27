@@ -44,6 +44,18 @@ loading...
 loading...
 
 # PanCanAID On-boarding
+What is PanCanAID?
+
+## How to join PanCanAID + onboarding 
+- As a medical center
+- As a pancreatic cancer physician
+- As a radiologist
+- As a GP
+- As a (bio)medical student
+  - to help with data collection
+  - to help with patients' follow-up interview 
+- As a pancreatic cancer patient
+
 Please visit [PanCanAID Education](https://pancanaid.com/education/) to see the all-in-one board. 
 
 
