@@ -47,10 +47,23 @@ loading...
 What is PanCanAID?
 
 ## How to join PanCanAID + onboarding 
+Follow the instruction bellow to understand what is PanCanAID and how you can collaborate. If you decided to join and help us, follow the instructions to understand how you should finish you contribution. 
+
 - As a medical center
 - As a pancreatic cancer physician
 - As a radiologist
+  1. What is PanCanAID
+  2. How you can contribute and what we can provide to compensate part of your efforts
+
+     After joining PanCanAID, follow this instruction describing the instructional pathway for you at [PanCanAID Education](https://pancanaid.com/education/):
+      - Instruction to PanCanAID Education: [GP Segmentor Pathway](https://youtu.be/oSUfuAtzmCY)
 - As a GP
+  1. What is PanCanAID
+  2. How you can contribute and what we can provide to compensate part of your efforts
+
+     After joining PanCanAID, follow this instruction describing the instructional pathway for you at [PanCanAID Education](https://pancanaid.com/education/):
+      - Instruction to PanCanAID Education: [Radiologists Segmentor Pathway](https://youtu.be/_j-6X1QDlcQ)
+
 - As a (bio)medical student
   - to help with data collection
   - to help with patients' follow-up interview 
