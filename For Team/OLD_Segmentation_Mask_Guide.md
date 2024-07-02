@@ -1,4 +1,4 @@
-
+# WARNING ! THIS VERSION IS NOT IN USE AS OF MAY 2024 seee the updated guide: https://github.com/Sdamirsa/PanCanAID/edit/main/For%20Team/Segmentation_Mask_Guide.md
 
 | S.Task                                   | Annotator     | Confirm by      | Mask                                    | <span style="color:#ffff00">Mask Name</span> | If and only if     | Command to annotator                                      | Tool   |     | Est. Req. Time for S. |
 | ---------------------------------------- | ------------- | --------------- | --------------------------------------- | -------------------------------------------- | ------------------ | --------------------------------------------------------- | ------ | --- | --------------------- |
