@@ -15,6 +15,8 @@ PanCanAID initially focused on pancreatic cancer, leading to the acquisition of 
 
 # Mask Guide (Click on the desired task)
 
+This tables guide you on proper segmentation and naming
+
 <details>
 <summary> PAS (GP Team) </summary>
   
@@ -156,9 +158,6 @@ PanCanAID initially focused on pancreatic cancer, leading to the acquisition of 
 | GP/Trained MedStd | Me OR Radiologist | Inferior Vena Cava | **IVC**          | Around IVC, from highest segmented organ to lowest segmented organ (slice)   | Pen  | 7                     |
 
 </details>
-
-
-This table guides you on proper segmentation and defining names
 
 
 # PanCanAID Guides
