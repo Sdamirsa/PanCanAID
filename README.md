@@ -1,3 +1,17 @@
+<P align="center">
+	<a href="https://pancanaid.com/">
+	  <img src="https://img.shields.io/badge/Website-PanCanAID.com-yellow?logo=codeigniter" height="25"/>
+	</a> 
+	<a href="https://pancanaid.com/education">
+	  <img src="https://img.shields.io/badge/Radiology--Course-PanCanAID--Education-purple?logo=darkreader" height="25"/>
+	</a>
+	<a href="https://github.com/Sdamirsa/PanCanAID/blob/e78a5e9ab4217a60066f5b3548f3c02fbdf4bc39/For%20Team/PanCanAID_2024_Guide/Segmentation_Guide.md">
+	  <img src="https://img.shields.io/badge/Instructions-PanCanAID--2024--Guide-green?logo=notepadplusplus" height="25"/>
+	</a>
+
+</P>
+
+
 # About [PanCanAID](https://pancanaid.com/)
 *This is a 2024 updated version of the PanCanAID project repository.*
 PanCanAID is a philanthropic initiative that strives to enhance the early detection, diagnosis, and treatment of pancreatic cancer patients. We are committed to broadening our collaboration with teams and institutes who share our vision of improving the diagnosis and prognosis of pancreatic cancer. Our ultimate goal is to develop or aid in developing machine learning-driven tools with a minimum cost for the patients. Join us in our mission to combat pancreatic cancer and positively impact people’s lives.
