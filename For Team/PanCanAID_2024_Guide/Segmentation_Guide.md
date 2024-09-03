@@ -9,7 +9,7 @@ In 2024, we upgraded our segmentation pipeline. It now encompasses three primary
    This system verifies the PAS results and generates pancreas-related reports. For pancreatic cancer cases, it provides information on metastasis, neural invasion, root of mesentery invasion, staging, and mass characteristics.
 
 3. AAA (Abdominal Anatomy Analysis):
-   This task involves segmenting six organs and two vessels within the abdominal cavity: Stomach (G), Liver (L), Gallbladder (GB), Left Kidney (LK), Right Kidney (RK), Spleen (Sp), Inferior Vena Cava (IVC), Aorta (AA)
+   This task involves segmenting six organs and two vessels within the abdominal cavity: Stomach (G), Liver (L), Gallbladder (GB), Left Kidney (LK), Right Kidney (RK), Spleen (Sp), Inferior Vena Cava (IVC), Aorta (AA). This task contains two steps, segmentation and organ-level report.
 
 PanCanAID initially focused on pancreatic cancer, leading to the acquisition of approximately 7,000 CT scans. This extensive dataset spawned a new project, Pars-CT, which aims to develop a foundational model for CT scan analysis. A preprint detailing the design and its corresponding repository will be available soon.
 
