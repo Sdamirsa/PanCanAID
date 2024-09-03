@@ -45,18 +45,25 @@ This tables guide you on proper segmentation and naming
    - Margins (well-defined, ill-defined, infiltrative)
    - Presence of calcifications (yes/no)
 
-2. **Ancillary Findings**:
-   - Pancreatic or biliary stents (present/absent)
-   - Ascites (present/absent)
-   - Gallstones (present/absent)
+2. **Pancreatic Duct Dilation**:
+   - Present/absent
+   - Maximum diameter (mm)
 
-3. **Metastasis:**
+3. **Common Bile Duct Dilation**:
+   - Present/absent
+   - Maximum diameter (mm)
+  
+4. **Pancreatic Atrophy**:
+   - Present/absent
+   - Degree (mild, moderate, severe)
+
+5. **Metastasis:**
    - Liver metastases (present/absent, number, size of largest)
    - Peritoneal metastases (present/absent)
    - Other organs metastases (present/absent)
    - Distant lymph node metastases (present/absent, location)
 
-4. **Local Invasion:**
+6. **Local Invasion:**
    - Vascular invasion:
      - Portal vein (present/absent, degree of involvement)
      - Superior mesenteric vein (present/absent, degree of involvement)
@@ -69,23 +76,15 @@ This tables guide you on proper segmentation and naming
      - Spleen (present/absent)
      - Left adrenal gland (present/absent)
    
-5. **Pancreatic Duct Dilation**:
-   - Present/absent
-   - Maximum diameter (mm)
-
-6. **Common Bile Duct Dilation**:
-   - Present/absent
-   - Maximum diameter (mm)
-
 7. **Lymph Node Involvement**:
    - Peripancreatic lymph nodes (present/absent, number, size of largest)
    - Celiac lymph nodes (present/absent, number, size of largest)
    - Para-aortic lymph nodes (present/absent, number, size of largest)
 
-8. **Pancreatic Atrophy**:
-   - Present/absent
-   - Degree (mild, moderate, severe)
-
+8. **Ancillary Findings**:
+   - Pancreatic or biliary stents (present/absent)
+   - Ascites (present/absent)
+   - Gallstones (present/absent)
 
 9. **Resectability (based on provided definition)**:
    - A. Resectable
