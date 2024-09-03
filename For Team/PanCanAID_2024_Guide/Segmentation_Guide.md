@@ -63,6 +63,11 @@ This tables guide you on proper segmentation and naming
    - Other organs metastases (present/absent)
    - Distant lymph node metastases (present/absent, location)
 
+7. **Lymph Node Metastasis**:
+   - Peripancreatic lymph nodes (present/absent, number, size of largest)
+   - Celiac lymph nodes (present/absent, number, size of largest)
+   - Para-aortic lymph nodes (present/absent, number, size of largest)
+
 6. **Local Invasion:**
    - Vascular invasion:
      - Portal vein (present/absent, degree of involvement)
@@ -75,11 +80,6 @@ This tables guide you on proper segmentation and naming
      - Stomach (present/absent)
      - Spleen (present/absent)
      - Left adrenal gland (present/absent)
-   
-7. **Lymph Node Involvement**:
-   - Peripancreatic lymph nodes (present/absent, number, size of largest)
-   - Celiac lymph nodes (present/absent, number, size of largest)
-   - Para-aortic lymph nodes (present/absent, number, size of largest)
 
 8. **Ancillary Findings**:
    - Pancreatic or biliary stents (present/absent)
