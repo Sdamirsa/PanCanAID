@@ -48,7 +48,7 @@ This tables guide you on proper segmentation and naming
 2. **Metastasis:**
    - Liver metastases (present/absent, number, size of largest)
    - Peritoneal metastases (present/absent)
-   - Lung metastases (present/absent)
+   - Other organs metastases (present/absent)
    - Distant lymph node metastases (present/absent, location)
 
 3. **Local Invasion:**
