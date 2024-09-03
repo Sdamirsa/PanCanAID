@@ -1,12 +1,12 @@
 <P align="center">
 	<a href="https://pancanaid.com/">
-	  <img src="https://img.shields.io/badge/Website-PanCanAID.com-yellow?logo=codeigniter" height="25"/>
+	  <img src="https://img.shields.io/badge/Website-PanCanAID.com-yellow?logo=codeigniter" height="23"/>
 	</a> 
 	<a href="https://pancanaid.com/education">
-	  <img src="https://img.shields.io/badge/Radiology--Course-PanCanAID--Education-purple?logo=darkreader" height="25"/>
+	  <img src="https://img.shields.io/badge/Radiology--Course-PanCanAID--Education-purple?logo=darkreader" height="23"/>
 	</a>
 	<a href="https://github.com/Sdamirsa/PanCanAID/blob/e78a5e9ab4217a60066f5b3548f3c02fbdf4bc39/For%20Team/PanCanAID_2024_Guide/Segmentation_Guide.md">
-	  <img src="https://img.shields.io/badge/Instructions-PanCanAID--2024--Guide-green?logo=notepadplusplus" height="25"/>
+	  <img src="https://img.shields.io/badge/Instructions-PanCanAID--2024--Guide-green?logo=notepadplusplus" height="23"/>
 	</a>
 
 </P>
