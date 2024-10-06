@@ -158,6 +158,10 @@ This tables guide you on proper segmentation and naming
 
 </details>
 
+<details>
+<summary> AAA report (radiologist) </summary>
+Follow the link to Google Form: https://docs.google.com/forms/d/e/1FAIpQLSc_DBrNUzyZjZapaUqcL1pGaICMAP_zjrOIF_HNEomys8VzHw/viewform?usp=sf_link 
+</details>
 
 # PanCanAID Guides
 
