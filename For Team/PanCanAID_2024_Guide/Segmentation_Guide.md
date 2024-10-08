@@ -25,7 +25,7 @@ This tables guide you on proper segmentation and naming
 | Trained GP | Me && Radiologist | Pancreas                   | **P**         | -                  | Around pancreas on all visible axial cut                 | Pen  | 20 m                  |
 |            |                   | Deudenum                   | **D**         |                    | Around D1 (from pylori to the end of arm of C shaped D1) | Pen  | 15 min                |
 | Trained GP | Me && Radiologist | Mass                       | **M**         | if mass is present | Around pancreas mass on all visible axial cut            | Pen  | 5 m                   |
-| Trained GP | Me && Radiologist | MPD                        | **MPD**       | if MPD dilation    | Around MPD in all visible axial cut                      | Pen  | 5 m                   |
+| Trained GP | Me && Radiologist | MPD                        | **MPD**       | if visible    | Around MPD in all visible axial cut                      | Pen  | 5 m                   |
 | Trained GP | Me && Radiologist | Celiac  & Branche Artery   | **CAB**       |                    | Around Celiac Trunk A. & Common-Hepatic A. & Splenic A.  | Pen  | 10 min                |
 | Trained GP | Me && Radiologist | Superior Mesenteric Artery | **SMA**       |                    | Around Superior Mesenteric Artery                        | Pen  | 7 min                 |
 | Trained GP | Me && Radiologist | Superior Mesenteric Vein   | **SMV**       |                    | Around Superior Mesenteric Vein                          | Pen  | 7 min                 |
