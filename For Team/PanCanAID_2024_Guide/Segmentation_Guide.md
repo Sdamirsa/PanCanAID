@@ -31,7 +31,7 @@ This tables guide you on proper segmentation and naming
 | Trained GP | Me && Radiologist | Common Hepatic Artery      | **CHA**       |                                   | Around Common Hepatic Artery                             |      | 5 min                 |
 | Trained GP | Me && Radiologist | Splenic Artery             | **SA**        |                                   | Around Splenic Artery                                    |      | 5 min                 |
 | Trained GP | Me && Radiologist | Superior Mesenteric Artery | **SMA**       |                                   | Around Superior Mesenteric Artery                        | Pen  | 7 min                 |
-| Trained GP | Me && Radiologist | Portal Vein                | **PV**        |                                   | Around Portal Vein                                       | Pen  | 10 min                |
+| Trained GP | Me && Radiologist | Portal Vein                | **PV**        |                                   | Around Portal Vein                                       | Pen  | 8 min                |
 | Trained GP | Me && Radiologist |                            | **SV**        |                                   | Around Splenic Vein                                      | Pen  | 5 min                 |
 | Trained GP | Me && Radiologist | Superior Mesenteric Vein   | **SMV**       |                                   | Around Superior Mesenteric Vein                          | Pen  | 7 min                 |
 
