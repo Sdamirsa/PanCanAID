@@ -1,4 +1,4 @@
-# PanCanAID 2024 Introduction
+o# PanCanAID 2024 Introduction
 
 In 2024, we upgraded our segmentation pipeline. It now encompasses three primary tasks:
 
@@ -20,16 +20,21 @@ This tables guide you on proper segmentation and naming
 <details>
 <summary> PAS (GP Team) </summary>
   
-| Annotator  | Confirm by        | Mask                       | **Mask Name** | If and only if     | Command to annotator                                     | Tool | Est. Req. Time for S. |
-| ---------- | ----------------- | -------------------------- | ------------- | ------------------ | -------------------------------------------------------- | ---- | --------------------- |
-| Trained GP | Me && Radiologist | Pancreas                   | **P**         | -                  | Around pancreas on all visible axial cut                 | Pen  | 20 m                  |
-|            |                   | Deudenum                   | **D**         |                    | Around D1 (from pylori to the end of arm of C shaped D1) | Pen  | 15 min                |
-| Trained GP | Me && Radiologist | Mass                       | **M**         | if mass is present | Around pancreas mass on all visible axial cut            | Pen  | 5 m                   |
-| Trained GP | Me && Radiologist | MPD                        | **MPD**       | if visible    | Around MPD in all visible axial cut                      | Pen  | 5 m                   |
-| Trained GP | Me && Radiologist | Celiac  & Branche Artery   | **CAB**       |                    | Around Celiac Trunk A. & Common-Hepatic A. & Splenic A.  | Pen  | 10 min                |
-| Trained GP | Me && Radiologist | Superior Mesenteric Artery | **SMA**       |                    | Around Superior Mesenteric Artery                        | Pen  | 7 min                 |
-| Trained GP | Me && Radiologist | Superior Mesenteric Vein   | **SMV**       |                    | Around Superior Mesenteric Vein                          | Pen  | 7 min                 |
-| Trained GP | Me && Radiologist | Portal Vein                | **PV**        |                    | Around Portal Vein                                       | Pen  | 10 min                |
+
+| Annotator  | Confirm by        | Mask                       | **Mask Name** | If and only if                    | Command to annotator                                     | Tool | Est. Req. Time for S. |
+| ---------- | ----------------- | -------------------------- | ------------- | --------------------------------- | -------------------------------------------------------- | ---- | --------------------- |
+| Trained GP | Me && Radiologist | Pancreas                   | **P**         | -                                 | Around pancreas on all visible axial cut                 | Pen  | 20 m                  |
+|            |                   | Deudenum                   | **D**         |                                   | Around D1 (from pylori to the end of arm of C shaped D1) | Pen  | 15 min                |
+| Trained GP | Me && Radiologist | Mass                       | **M**         | if mass is present                | Around pancreas mass on all visible axial cut            | Pen  | 5 m                   |
+| Trained GP | Me && Radiologist | MPD                        | **MPD**       | if visible (even if normal sized) | Around MPD in all visible axial cut                      | Pen  | 5 m                   |
+| Trained GP | Me && Radiologist | Celiac                     | **CA**        |                                   | Around Celiac Trunk A.                                   | Pen  | 2 min                 |
+| Trained GP | Me && Radiologist | Common Hepatic Artery      | **CHA**       |                                   | Around Common Hepatic Artery                             |      | 5 min                 |
+| Trained GP | Me && Radiologist | Splenic Artery             | **SA**        |                                   | Around Splenic Artery                                    |      | 5 min                 |
+| Trained GP | Me && Radiologist | Superior Mesenteric Artery | **SMA**       |                                   | Around Superior Mesenteric Artery                        | Pen  | 7 min                 |
+| Trained GP | Me && Radiologist | Portal Vein                | **PV**        |                                   | Around Portal Vein                                       | Pen  | 10 min                |
+| Trained GP | Me && Radiologist |                            | **SV**        |                                   | Around Splenic Vein                                      | Pen  | 5 min                 |
+| Trained GP | Me && Radiologist | Superior Mesenteric Vein   | **SMV**       |                                   | Around Superior Mesenteric Vein                          | Pen  | 7 min                 |
+
 
 </details>
 
