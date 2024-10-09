@@ -29,10 +29,9 @@ This tables guide you on proper segmentation and naming
 | Trained GP | Me && Radiologist | MPD                        | **MPD**       | if visible (even if normal sized) | Around MPD in all visible axial cut                      | Pen  | 5 m                   |
 | Trained GP | Me && Radiologist | Celiac                     | **CA**        |                                   | Around Celiac Trunk A.                                   | Pen  | 2 min                 |
 | Trained GP | Me && Radiologist | Common Hepatic Artery      | **CHA**       |                                   | Around Common Hepatic Artery                             |      | 5 min                 |
-| Trained GP | Me && Radiologist | Splenic Artery             | **SA**        |                                   | Around Splenic Artery                                    |      | 5 min                 |
+| Trained GP | Me && Radiologist | Splenic Artery             | **SASV**        |                                   | Around Splenic Artery & Vein                                   |      | 5 min                 |
 | Trained GP | Me && Radiologist | Superior Mesenteric Artery | **SMA**       |                                   | Around Superior Mesenteric Artery                        | Pen  | 7 min                 |
 | Trained GP | Me && Radiologist | Portal Vein                | **PV**        |                                   | Around Portal Vein                                       | Pen  | 8 min                |
-| Trained GP | Me && Radiologist |                            | **SV**        |                                   | Around Splenic Vein                                      | Pen  | 5 min                 |
 | Trained GP | Me && Radiologist | Superior Mesenteric Vein   | **SMV**       |                                   | Around Superior Mesenteric Vein                          | Pen  | 7 min                 |
 
 
