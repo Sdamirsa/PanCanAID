@@ -152,6 +152,7 @@ This tables guide you on proper segmentation and naming
 | Annotator         | Confirm by        | Mask               | **Name of Mask** | Command to annotator                                                         | Tool | Est. Req. Time for S. |
 | ----------------- | ----------------- | ------------------ | ---------------- | ---------------------------------------------------------------------------- | ---- | --------------------- |
 | GP/Trained MedStd | Me OR Radiologist | Gastric (Stomache) | **G**            | Around Stomach (outside stomach muscles)                                     | Pen  | 10                    |
+| GP/Trained MedStd | Me OR Radiologist | Pancreas | **P**          | Around Pancreas   | Pen  | 12                     |
 | GP/Trained MedStd | Me OR Radiologist | Liver              | **L**            | Around Liver Excluding IVC & main hepatic arteries outside liver             | Pen  | 12                    |
 | GP/Trained MedStd | Me OR Radiologist | Gall Bladder       | **GB**           | Around gall bladder                                                          | Pen  | 2                     |
 | GP/Trained MedStd | Me OR Radiologist | Left Kidney        | **LK**           | Around left kidney                                                           | Pen  | 7                     |
