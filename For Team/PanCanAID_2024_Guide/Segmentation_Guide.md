@@ -1,4 +1,4 @@
-# PanCanAID 2024 Introduction
+o# PanCanAID 2024 Introduction
 
 In 2024, we upgraded our segmentation pipeline. It now encompasses three primary tasks:
 
@@ -9,7 +9,7 @@ In 2024, we upgraded our segmentation pipeline. It now encompasses three primary
    This system verifies the PAS results and generates pancreas-related reports. For pancreatic cancer cases, it provides information on metastasis, neural invasion, root of mesentery invasion, staging, and mass characteristics.
 
 3. AAA (Abdominal Anatomy Analysis):
-   This task involves segmenting six organs and two vessels within the abdominal cavity: Stomach (G), Liver (L), Gallbladder (GB), Left Kidney (LK), Right Kidney (RK), Spleen (Sp), Inferior Vena Cava (IVC), Aorta (AA)
+   This task involves segmenting six organs and two vessels within the abdominal cavity: Stomach (G), Liver (L), Gallbladder (GB), Left Kidney (LK), Right Kidney (RK), Spleen (Sp), Inferior Vena Cava (IVC), Aorta (AA). This task contains two steps, segmentation and organ-level report.
 
 PanCanAID initially focused on pancreatic cancer, leading to the acquisition of approximately 7,000 CT scans. This extensive dataset spawned a new project, Pars-CT, which aims to develop a foundational model for CT scan analysis. A preprint detailing the design and its corresponding repository will be available soon.
 
@@ -20,16 +20,20 @@ This tables guide you on proper segmentation and naming
 <details>
 <summary> PAS (GP Team) </summary>
   
-| Annotator  | Confirm by        | Mask                       | **Mask Name** | If and only if     | Command to annotator                                     | Tool | Est. Req. Time for S. |
-| ---------- | ----------------- | -------------------------- | ------------- | ------------------ | -------------------------------------------------------- | ---- | --------------------- |
-| Trained GP | Me && Radiologist | Pancreas                   | **P**         | -                  | Around pancreas on all visible axial cut                 | Pen  | 20 m                  |
-|            |                   | Deudenum                   | **D**         |                    | Around D1 (from pylori to the end of arm of C shaped D1) | Pen  | 15 min                |
-| Trained GP | Me && Radiologist | Mass                       | **M**         | if mass is present | Around pancreas mass on all visible axial cut            | Pen  | 5 m                   |
-| Trained GP | Me && Radiologist | MPD                        | **MPD**       | if MPD dilation    | Around MPD in all visible axial cut                      | Pen  | 5 m                   |
-| Trained GP | Me && Radiologist | Celiac  & Branche Artery   | **CAB**       |                    | Around Celiac Trunk A. & Common-Hepatic A. & Splenic A.  | Pen  | 10 min                |
-| Trained GP | Me && Radiologist | Superior Mesenteric Artery | **SMA**       |                    | Around Superior Mesenteric Artery                        | Pen  | 7 min                 |
-| Trained GP | Me && Radiologist | Superior Mesenteric Vein   | **SMV**       |                    | Around Superior Mesenteric Vein                          | Pen  | 7 min                 |
-| Trained GP | Me && Radiologist | Portal Vein                | **PV**        |                    | Around Portal Vein                                       | Pen  | 10 min                |
+
+| Annotator  | Confirm by        | Mask                       | **Mask Name** | If and only if                    | Command to annotator                                     | Tool | Est. Req. Time for S. |
+| ---------- | ----------------- | -------------------------- | ------------- | --------------------------------- | -------------------------------------------------------- | ---- | --------------------- |
+| Trained GP | Me && Radiologist | Pancreas                   | **P**         | -                                 | Around pancreas on all visible axial cut                 | Pen  | 20 m                  |
+|            |                   | Deudenum                   | **D**         |                                   | Around D1 (from pylori to the end of arm of C shaped D1) | Pen  | 15 min                |
+| Trained GP | Me && Radiologist | Mass                       | **M**         | if mass is present                | Around pancreas mass on all visible axial cut            | Pen  | 5 m                   |
+| Trained GP | Me && Radiologist | MPD                        | **MPD**       | if visible (even if normal sized) | Around MPD in all visible axial cut                      | Pen  | 5 m                   |
+| Trained GP | Me && Radiologist | Celiac                     | **CA**        |                                   | Around Celiac Trunk A.                                   | Pen  | 2 min                 |
+| Trained GP | Me && Radiologist | Common Hepatic Artery      | **CHA**       |                                   | Around Common Hepatic Artery                             |      | 5 min                 |
+| Trained GP | Me && Radiologist | Splenic Artery & Vein            | **SASV**      |    (Or SA and SV if you can discriminate them)                               | Around Splenic Artery & Vein                                   |      | 5 min                 |
+| Trained GP | Me && Radiologist | Superior Mesenteric Artery | **SMA**       |                                   | Around Superior Mesenteric Artery                        | Pen  | 7 min                 |
+| Trained GP | Me && Radiologist | Portal Vein                | **PV**        |                                   | Around Portal Vein                                       | Pen  | 8 min                |
+| Trained GP | Me && Radiologist | Superior Mesenteric Vein   | **SMV**       |                                   | Around Superior Mesenteric Vein                          | Pen  | 7 min                 |
+
 
 </details>
 
@@ -148,6 +152,7 @@ This tables guide you on proper segmentation and naming
 | Annotator         | Confirm by        | Mask               | **Name of Mask** | Command to annotator                                                         | Tool | Est. Req. Time for S. |
 | ----------------- | ----------------- | ------------------ | ---------------- | ---------------------------------------------------------------------------- | ---- | --------------------- |
 | GP/Trained MedStd | Me OR Radiologist | Gastric (Stomache) | **G**            | Around Stomach (outside stomach muscles)                                     | Pen  | 10                    |
+| GP/Trained MedStd | Me OR Radiologist | Pancreas | **P**          | Around Pancreas   | Pen  | 12                     |
 | GP/Trained MedStd | Me OR Radiologist | Liver              | **L**            | Around Liver Excluding IVC & main hepatic arteries outside liver             | Pen  | 12                    |
 | GP/Trained MedStd | Me OR Radiologist | Gall Bladder       | **GB**           | Around gall bladder                                                          | Pen  | 2                     |
 | GP/Trained MedStd | Me OR Radiologist | Left Kidney        | **LK**           | Around left kidney                                                           | Pen  | 7                     |
@@ -158,6 +163,10 @@ This tables guide you on proper segmentation and naming
 
 </details>
 
+<details>
+<summary> AAA report (radiologist) </summary>
+Follow the link to Google Form: https://docs.google.com/forms/d/e/1FAIpQLSc_DBrNUzyZjZapaUqcL1pGaICMAP_zjrOIF_HNEomys8VzHw/viewform?usp=sf_link 
+</details>
 
 # PanCanAID Guides
 

@@ -5,7 +5,7 @@
 	<a href="https://pancanaid.com/education">
 	  <img src="https://img.shields.io/badge/Radiology--Course-PanCanAID--Education-purple?logo=darkreader" height="23"/>
 	</a>
-	<a href="https://github.com/Sdamirsa/PanCanAID/blob/e78a5e9ab4217a60066f5b3548f3c02fbdf4bc39/For%20Team/PanCanAID_2024_Guide/Segmentation_Guide.md">
+	<a href="https://github.com/Sdamirsa/PanCanAID/blob/main/For%20Team/PanCanAID_2024_Guide/Segmentation_Guide.md">
 	  <img src="https://img.shields.io/badge/Instructions-PanCanAID--2024--Guide-green?logo=notepadplusplus" height="23"/>
 	</a>
 
