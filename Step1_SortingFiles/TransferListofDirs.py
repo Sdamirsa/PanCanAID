@@ -3,6 +3,8 @@
 # 2- Destination that you want to copy these files
 # 3- number of levels of folders you want to maintain in your strucutre of folder-trees
 # Then it will copy the list of direcotries, each in a new line, to destination wiht the desired structure.
+
+
 import os
 import shutil
 from tqdm import tqdm

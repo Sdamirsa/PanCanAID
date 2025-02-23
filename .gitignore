@@ -2,3 +2,7 @@
 #in [cmd] code pip install nbstripout --install --global
 #in [git] code nbstripout --install --global
 .env
+build/
+dist/
+TransferListofDirs.spec
+.vs/
